@@ -1,16 +1,16 @@
-\# Program start time:     UTC 2023.02.16 10:05:45.296
-\# Local time: IST (UTC+05:30) 2023.02.16 15:35:45.296
+\# Program start time:     UTC 2023.02.16 11:47:25.470
+\# Local time: IST (UTC--5:-30) 2023.02.16 17:17:25.470
 \o Program:		@(#)$CDS: virtuoso version 6.1.7-64b 04/17/2018 20:01 (sjfhw312) $
 \o Hierarchy:		/home/install/IC617/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.7-64b.500.19  (64-bit addresses)
-\# Command line:	/home/install/IC617/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso4003 -mpshost pgcadence-09 -davinciService DaVinciService_4003_1676541941 -log /home/pguser/P2/logs_pguser/logs0/Job0.log -licenseLockFileName /home/pguser/P2/.tmp_pguser/.pgcadence-09_4003 -nograph -nostdin -axlChildIdFlag 0
+\# Command line:	/home/install/IC617/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso15775 -mpshost pgcadence-09 -davinciService DaVinciService_15775_1676548041 -log /home/pguser/P2/logs_pguser/logs0/Job0.log -licenseLockFileName /home/pguser/P2/.tmp_pguser/.pgcadence-09_15775 -nograph -nostdin -axlChildIdFlag 0
 \# Host name (type):	pgcadence-09 (x86_64)
 \# Operating system:	Linux 3.10.0-1062.el7.x86_64 #1 SMP Thu Jul 18 20:25:13 UTC 2019
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
 \# X display name (WxH):	pgcadence-09:80 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
-\# X server:			RealVNC Ltd (VNC nograph server, PID 6702)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 18530)
 \# Depth of Visual (Root):	16 (16)
 \# Number of Planes Used:	16
 \# X version:		11.0 (vendor release 3370)
@@ -18,11 +18,11 @@
 \# 			current id 0x0, current max 0x3ffffa (4194298)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        460 MB
-\# Available memory:	     14,358 MB
+\# Initial sbrk value:	        471 MB
+\# Available memory:	     11,415 MB
 \# System memory:	     15,644 MB
-\# Maximum memory size:	     15,259 MB
-\# Max mem available:	     14,433 MB
+\# Maximum memory size:	     15,247 MB
+\# Max mem available:	     11,489 MB
 \# Initial memory used:	         74 MB
 \#        process size:	      1,022 MB
 \# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 4.00/4.00
@@ -30,7 +30,7 @@
 \# Window Manager:	other
 \# User Name:		pguser
 \o Working Directory:	pgcadence-09:/home/pguser/P2
-\# Process Id:		6712
+\# Process Id:		18540
 \o 
 \o COPYRIGHT (C) 1992-2018  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2018  UNIX SYSTEMS Laboratories INC.,
@@ -67,10 +67,9 @@
 \o Loading caa.cxt 
 \o Loading adexlCore.cxt 
 \o Loading adexl.cxt 
-\# Memory report: using         184 MB, process size 1,254 MB at UTC 2023.02.16 10:05:47.053
 \o *Info*    Exporting services from client ... 
 \o 
-\o *INFO* (icLic-303) virtuoso: PID=6712, Child Mode is true, ICPR Mode is true, Registration Timeout is 180 seconds, Communication Timeout is 180 seconds.
+\o *INFO* (icLic-303) virtuoso: PID=18540, Child Mode is true, ICPR Mode is true, Registration Timeout is 180 seconds, Communication Timeout is 180 seconds.
 \w *WARNING* The directory: '/home/install/FOUNDRY/analog/45nm/gpdk045' does not exist
 \w 	but was defined in libFile '/home/install/FOUNDRY/cds.lib' for Lib 'gpdk045'.
 \o *Info*    Client has finished starting ... 
@@ -79,13 +78,14 @@
 \o Loading pe.cxt 
 \a _treeSetOpcGUI(t)
 \r t
-\# Available memory:         14,172 MB at UTC 2023.02.16 10:05:55.527
-\# Memory report: Maximum memory size now 14,374 MB at UTC 2023.02.16 10:05:55.527
-\# Thread usage report: 5 active threads, active load 1.00 at UTC 2023.02.16 10:05:55.527
-\# Memory report: Maximum memory size now 14,050 MB at UTC 2023.02.16 10:10:05.533
-\o Job 0 timed out after no activity in 300 seconds.
-\o Loading simui.cxt 
+\# Available memory:         11,294 MB at UTC 2023.02.16 11:47:35.708
+\# Memory report: Maximum memory size now 11,495 MB at UTC 2023.02.16 11:47:35.708
+\# Thread usage report: 5 active threads, active load 1.00 at UTC 2023.02.16 11:47:35.708
+\# Memory report: using         201 MB, process size 1,277 MB at UTC 2023.02.16 11:47:35.708
 \o 
 \o *Info*    Received signal SIGTERM.
 \o 
 \o 
+\o Loading simui.cxt 
+\# Memory report: on exit            206 MB, process size 1,281 MB at UTC 2023.02.16 11:51:49.474
+\# Memory report: peak usage         206 MB, process size 1,281 MB
