@@ -1,2 +1,2 @@
-SOFTINCLUDE /home/pguser/cds.lib
-DEFINE ADC /home/pguser/P2/ADC
+SOFTINCLUDE /root/cds.lib
+DEFINE ADC /root/Documents/vvgh/GPS/ADC
