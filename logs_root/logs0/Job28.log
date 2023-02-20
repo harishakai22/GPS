@@ -7,16 +7,16 @@
 *Info*    Configuring the session ...
 
 	Library      = ADC
-	Cell         = compfirstpass
+	Cell         = comparator
 	View         = schematic
 	Simulator    = spectre
 	State Path   = $AXL_SETUPDB_DIR/test_states
 	State Name   = ExplorerRun.0
-	Results DB   = /root/Documents/vvgh/GPS/ADC/compfirstpass/maestro/results/maestro/ExplorerRun.0.rdb
-	Results Dir  = /root/simulation/ADC/compfirstpass/maestro/results/maestro/ExplorerRun.0/1/ADC:compfirstpass:1
-	Results Loc  = /root/simulation/ADC/compfirstpass/maestro/results/maestro
+	Results DB   = /root/Documents/vvgh/GPS/ADC/comparator/maestro/results/maestro/ExplorerRun.0.rdb
+	Results Dir  = /root/simulation/ADC/comparator/maestro/results/maestro/ExplorerRun.0/1/ADC:comparator:1
+	Results Loc  = /root/simulation/ADC/comparator/maestro/results/maestro
 	Project Dir  = /root/simulation
-	Setup DB loc = /root/Documents/vvgh/GPS/ADC/compfirstpass/maestro
+	Setup DB loc = /root/Documents/vvgh/GPS/ADC/comparator/maestro
 	File Encoding = 0
 
 
@@ -31,8 +31,8 @@
 
 
 
-*Info*    Run start for Point ID (9 1) on testbench [
-          ADC:compfirstpass:1 ].
+*Info*    Run start for Point ID (10 1) on testbench [
+          ADC:comparator:1 ].
 
 Resetting statistical vars
 
@@ -41,18 +41,18 @@ Resetting statistical vars
 Setting temp(T) = 27
 
 *Info*    Netlist Directory =
-          /root/simulation/ADC/compfirstpass/maestro/results/maestro/ExplorerRun.0/1/ADC:compfirstpass:1/netlist
+          /root/simulation/ADC/comparator/maestro/results/maestro/ExplorerRun.0/1/ADC:comparator:1/netlist
 
 
 *Info*    Data Directory    =
-          /root/simulation/ADC/compfirstpass/maestro/results/maestro/ExplorerRun.0/1/ADC:compfirstpass:1
+          /root/simulation/ADC/comparator/maestro/results/maestro/ExplorerRun.0/1/ADC:comparator:1
 
 
-*Info*    Creating Netlist for Point ID (9 1)
+*Info*    Creating Netlist for Point ID (10 1)
 
 generate netlist...
-Begin Incremental Netlisting Feb 17 16:21:39 2023
-End netlisting Feb 17 16:21:39 2023
+Begin Incremental Netlisting Feb 20 13:15:21 2023
+End netlisting Feb 20 13:15:21 2023
 
 	The netlist is up to date.
 	Time taken to compare the design with netlist:   0.0s
@@ -60,10 +60,10 @@ End netlisting Feb 17 16:21:39 2023
 compose simulator input file...
       ...successful.
 
-*Info*    Running simulation on testbench [ ADC:compfirstpass:1 ] for
-          Point ID (9 1).
+*Info*    Running simulation on testbench [ ADC:comparator:1 ] for
+          Point ID (10 1).
 
-Delete psf data in /root/simulation/ADC/compfirstpass/maestro/results/maestro/ExplorerRun.0/1/ADC:compfirstpass:1/psf.
+Delete psf data in /root/simulation/ADC/comparator/maestro/results/maestro/ExplorerRun.0/1/ADC:comparator:1/psf.
 compose simulator input file...
       ...successful.
 start simulator if needed...
@@ -78,8 +78,8 @@ reading simulation data...
 *Info*    Client has finished evaluating ... 
 
 
-*Info*    Run complete for Point ID (9 1) on testbench [
-          ADC:compfirstpass:1 ].
+*Info*    Run complete for Point ID (10 1) on testbench [
+          ADC:comparator:1 ].
 
 
 

@@ -31,7 +31,7 @@
 
 
 
-*Info*    Run start for Point ID (3 1) on testbench [
+*Info*    Run start for Point ID (1 1) on testbench [
           ADC:compfirstpass:1 ].
 
 Resetting statistical vars
@@ -48,58 +48,39 @@ Setting temp(T) = 27
           /root/simulation/ADC/compfirstpass/maestro/results/maestro/ExplorerRun.0/1/ADC:compfirstpass:1
 
 
-*Info*    Creating Netlist for Point ID (3 1)
+*Info*    Creating Netlist for Point ID (1 1)
 
 generate netlist...
-Begin Incremental Netlisting Feb 17 11:39:17 2023
-ERROR (OSSHNL-109): The cellview 'ADC/compfirstpass/schematic' has been modified since the last extraction. Validate
-that the schematic is correct and run Check and Save to correct this error.
+Begin Incremental Netlisting Feb 20 11:31:04 2023
+End netlisting Feb 20 11:31:04 2023
 
-End netlisting Feb 17 11:39:17 2023
-ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
-      ...unsuccessful.
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
+      ...successful.
+compose simulator input file...
+      ...successful.
 
-*Error*   Error ID  = 5012
-*Error*   Error Msg = Failed to create netlist.
+*Info*    Running simulation on testbench [ ADC:compfirstpass:1 ] for
+          Point ID (1 1).
+
+Delete psf data in /root/simulation/ADC/compfirstpass/maestro/results/maestro/ExplorerRun.0/1/ADC:compfirstpass:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
 
 
-
-
-
-
-
-
-
-*Info*    Run start for Point ID (3 1) on testbench [
+*Info*    Run complete for Point ID (1 1) on testbench [
           ADC:compfirstpass:1 ].
 
-Resetting statistical vars
-
-*Info*    Setting parameter values ...
-
-Setting temp(T) = 27
-
-*Info*    Netlist Directory =
-          /root/simulation/ADC/compfirstpass/maestro/results/maestro/ExplorerRun.0/1/ADC:compfirstpass:1/netlist
-
-
-*Info*    Data Directory    =
-          /root/simulation/ADC/compfirstpass/maestro/results/maestro/ExplorerRun.0/1/ADC:compfirstpass:1
-
-
-*Info*    Creating Netlist for Point ID (3 1)
-
-generate netlist...
-Begin Incremental Netlisting Feb 17 11:39:28 2023
-ERROR (OSSHNL-109): The cellview 'ADC/compfirstpass/schematic' has been modified since the last extraction. Validate
-that the schematic is correct and run Check and Save to correct this error.
-
-End netlisting Feb 17 11:39:28 2023
-ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
-      ...unsuccessful.
-
-*Error*   Error ID  = 5012
-*Error*   Error Msg = Failed to create netlist.
 
 
 

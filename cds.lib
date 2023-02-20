@@ -1,2 +1,3 @@
 SOFTINCLUDE /root/cds.lib
 DEFINE ADC /root/Documents/vvgh/GPS/ADC
+DEFINE LNA /root/Documents/vvgh/GPS/LNA

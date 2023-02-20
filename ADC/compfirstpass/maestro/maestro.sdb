@@ -758,8 +758,8 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Feb 17 16:21:38 2023</timestamp>
-			<uuid>{6745302b-663b-4b87-92f4-ce4bb31f553d}</uuid>
+			<timestamp>Feb 20 17:38:34 2023</timestamp>
+			<uuid>{eea2bfba-dab2-4f2d-be6e-fdd3a863943a}</uuid>
 			<resultsname>/root/Documents/vvgh/GPS/ADC/compfirstpass/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -767,7 +767,7 @@
 			</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/islcadence2_root_162138813</localpsfdir>
+			<localpsfdir>/tmp/islcadence2_root_173834477</localpsfdir>
 			<psfdir>/root/simulation/ADC/compfirstpass/maestro/results/maestro/ExplorerRun.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/ADC/compfirstpass/maestro/results/maestro/ExplorerRun.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
@@ -775,6 +775,7 @@
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
+			<locked>0</locked>
 		</historyentry>
 	</history>
 </setupdb>
