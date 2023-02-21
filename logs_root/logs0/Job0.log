@@ -1,14 +1,14 @@
-\# Program start time:     UTC 2023.02.17 06:02:35.232
-\# Local time: IST (UTC+05:30) 2023.02.17 11:32:35.232
+\# Program start time:     UTC 2023.02.21 04:34:39.720
+\# Local time: IST (UTC+05:30) 2023.02.21 10:04:39.720
 \o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 04/27/2021 19:30 (cpgsrv11) $
 \o Hierarchy:		/home/install/IC618/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.8-64b.500.18  (64-bit addresses)
-\# Command line:	/home/install/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso18858 -mpshost islcadence2 -davinciService DaVinciService_18858_1676613752 -log /root/Documents/vvgh/GPS/logs_root/logs0/Job0.log -licenseLockFileName /root/Documents/vvgh/GPS/.tmp_root/.islcadence2_18858 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 0
+\# Command line:	/home/install/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso3344 -mpshost islcadence2 -davinciService DaVinciService_3344_1676954077 -log /root/Documents/vvgh/GPS/logs_root/logs0/Job0.log -licenseLockFileName /root/Documents/vvgh/GPS/.tmp_root/.islcadence2_3344 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 0
 \# Host name (type):	islcadence2 (x86_64)
 \# Operating system:	Linux 3.10.0-1160.el7.x86_64 #1 SMP Tue Aug 18 14:50:17 EDT 2020
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
-\# X display name (WxH):	:7170 (1024x868)
+\# X display name (WxH):	:3730 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
 \# X server:			Red Hat, Inc.
 \# Depth of Visual (Root):	24 (24)
@@ -18,11 +18,11 @@
 \# 			current id 0x0, current max 0x1ffffa (2097146)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        570 MB
-\# Available memory:	     18,033 MB
+\# Initial sbrk value:	        581 MB
+\# Available memory:	     20,254 MB
 \# System memory:	     23,700 MB
-\# Maximum memory size:	     23,321 MB
-\# Max mem available:	     18,223 MB
+\# Maximum memory size:	     23,310 MB
+\# Max mem available:	     20,445 MB
 \# Initial memory used:	        190 MB
 \#        process size:	      1,636 MB
 \# Thread usage limits (effective/default):	maxthreads 62583/62583 maxload 8.00/8.00
@@ -30,7 +30,7 @@
 \# Window Manager:	other
 \# User Name:		root
 \o Working Directory:	islcadence2:/root/Documents/vvgh/GPS
-\# Process Id:		22876
+\# Process Id:		7812
 \o 
 \o COPYRIGHT (C) 1992-2021  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2021  UNIX SYSTEMS Laboratories INC.,
@@ -58,7 +58,6 @@
 \o Loading ams.cxt 
 \o Loading oasis.cxt 
 \o Loading analog.cxt 
-\# Memory report: using         301 MB, process size 1,734 MB at UTC 2023.02.17 06:02:37.066
 \o Loading asimenv.cxt 
 \o Loading dal.cxt 
 \o Loading awv.cxt 
@@ -68,6 +67,7 @@
 \o Loading caa.cxt 
 \o Loading amps.cxt 
 \o Loading adexlCore.cxt 
+\# Memory report: using         330 MB, process size 1,860 MB at UTC 2023.02.21 04:34:43.249
 \o Loading adexl.cxt 
 \o *Info*    Exporting services from client ... 
 \o 
@@ -75,12 +75,12 @@
 \o Loading cpf.cxt 
 \o Loading cli.cxt 
 \o Loading lp.cxt 
-\o INFO (ELI-00302) Connecting to parent process (session=virtuoso18858, host=islcadence2). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso3344, host=islcadence2). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
 \o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 22876 within 90 seconds is being processed...
+\o INFO (ELI-00304) The registration of the child 7812 within 90 seconds is being processed...
 \o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
-\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
-\# [11:32:35.350073] Configured Lic search path (20.02-p002): 5280@cadence
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 2 seconds.
+\# [10:04:41.350033] Configured Lic search path (20.02-p002): 5280@cadence
 \w *WARNING* LIB ADC from File /root/Documents/vvgh/GPS/cds.lib Line 2 redefines
 \w LIB ADC from File /root/cds.lib
 \w Insert UNDEFINE ADC
@@ -94,6 +94,16 @@
 \o Loading vdsil.cxt 
 \p > 
 \a _treeSetOpcGUI(t)
-\# [11:32:37.390624] periodic Lic check successful
-\# [11:32:37.390627] Feature usage summary:
+\# [10:04:45.120299] Periodic Lic check successful
+\# [10:04:45.120304] Feature usage summary:
 \r t
+\# Available memory:         19,723 MB at UTC 2023.02.21 04:34:51.781
+\# Memory report: Maximum memory size now 20,110 MB at UTC 2023.02.21 04:34:51.781
+\# Thread usage report: 13 active threads, active load 1.40 at UTC 2023.02.21 04:34:51.781
+\# Memory report: Maximum memory size now 19,573 MB at UTC 2023.02.21 04:37:41.781
+\o Job 0 timed out after no activity in 300 seconds.
+\o Loading simui.cxt 
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 

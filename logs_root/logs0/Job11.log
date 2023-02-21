@@ -31,7 +31,7 @@
 
 
 
-*Info*    Run start for Point ID (1 1) on testbench [
+*Info*    Run start for Point ID (2 1) on testbench [
           ADC:compfirstpass:1 ].
 
 Resetting statistical vars
@@ -48,28 +48,20 @@ Setting temp(T) = 27
           /root/simulation/ADC/compfirstpass/maestro/results/maestro/ExplorerRun.0/1/ADC:compfirstpass:1
 
 
-*Info*    Creating Netlist for Point ID (1 1)
+*Info*    Creating Netlist for Point ID (2 1)
 
 generate netlist...
-Begin Incremental Netlisting Feb 21 10:40:05 2023
-WARNING (OSSHNL-160): The primitive, 'analogLib/isource/spectre', was not used in the last netlisting session in this
-current run directory. Therefore, re-netlisting all cell views where this
-primitive is instantiated.
+Begin Incremental Netlisting Feb 21 11:09:58 2023
+End netlisting Feb 21 11:09:58 2023
 
-Loading json.cxt 
-End netlisting Feb 21 10:40:05 2023
-
-Netlisting Statistics:
-	Number of components:   20
-
-	Elapsed time:          0.0s
-Errors: 0	Warnings: 0
+	The netlist is up to date.
+	Time taken to compare the design with netlist:   0.0s
       ...successful.
 compose simulator input file...
       ...successful.
 
 *Info*    Running simulation on testbench [ ADC:compfirstpass:1 ] for
-          Point ID (1 1).
+          Point ID (2 1).
 
 Delete psf data in /root/simulation/ADC/compfirstpass/maestro/results/maestro/ExplorerRun.0/1/ADC:compfirstpass:1/psf.
 compose simulator input file...
@@ -80,3 +72,16 @@ simulate...
 To view the simulator output, right-click on the test name, result 
 name, or any value in the "Results" tab of the Outputs section and 
 choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (2 1) on testbench [
+          ADC:compfirstpass:1 ].
+
+
+
+
+
