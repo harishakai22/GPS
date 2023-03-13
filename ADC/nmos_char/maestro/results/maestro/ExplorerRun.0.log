@@ -1,0 +1,14 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue Mar  7 15:55:30 2023 
+Best design point: 1
+Design specs: 
+	adc_nmos_char_1	corner	Nominal - 
+	Ron		3.228K
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Tue Mar  7 15:55:39 2023 
