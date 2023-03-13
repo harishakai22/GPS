@@ -1,13 +1,13 @@
 Starting Single Run, Sweeps and Corners...
 
-Current time: Mon Mar 13 16:53:11 2023 
+Current time: Mon Mar 13 16:36:16 2023 
 Best design point: 1
 Design specs: 
-	ADC_TnH_tb_1	corner	Nominal - 
+	ADC_Comparatorblock_1	corner	Nominal - 
 Design parameters: 
 
 ExplorerRun.0
 Number of points completed: 1
 Number of simulation errors: 0
 ExplorerRun.0 completed. 
-Current time: Mon Mar 13 16:53:20 2023 
+Current time: Mon Mar 13 16:36:20 2023 

@@ -7,11 +7,11 @@
 		</corners>
 		<overwritehistory>0</overwritehistory>
 		<tests>
-			<test>ADC_TnH_tb_1
+			<test>ADC_Comparatorblock_1
 				<tool>ADE</tool>
 				<tooloptions>
 					<option>cell
-						<value>TnH_tb</value>
+						<value>Comparatorblock</value>
 					</option>
 					<option>lib
 						<value>ADC</value>
@@ -29,20 +29,9 @@
 						<value>active</value>
 					</option>
 				</tooloptions>
-				<outputs>
-					<output>/vin
-						<evalType>point</evalType>
-					</output>
-					<output>/clk
-						<evalType>point</evalType>
-					</output>
-					<output>/vout
-						<evalType>point</evalType>
-					</output>
-				</outputs>
 				<origoptions>
 					<option>cell
-						<value>TnH_tb</value>
+						<value>Comparatorblock</value>
 					</option>
 					<option>lib
 						<value>ADC</value>
@@ -57,6 +46,20 @@
 						<value>schematic</value>
 					</option>
 				</origoptions>
+				<outputs>
+					<output>/out
+						<evalType>point</evalType>
+					</output>
+					<output>/vin
+						<evalType>point</evalType>
+					</output>
+					<output>/clk
+						<evalType>point</evalType>
+					</output>
+					<output>/vref
+						<evalType>point</evalType>
+					</output>
+				</outputs>
 			</test>
 		</tests>
 		<extensions>
@@ -68,7 +71,7 @@
 		</extensions>
 		<currentmode>Single Run, Sweeps and Corners</currentmode>
 		<checksasserts netlist="0">
-			<test netlist="0" netlistscope="all">ADC_TnH_tb_1</test>
+			<test netlist="0" netlistscope="all">ADC_Comparatorblock_1</test>
 		</checksasserts>
 		<plottingoptions>
 			<plottingoption>waveformtemplate
@@ -114,11 +117,11 @@
 				</corners>
 				<overwritehistory>0</overwritehistory>
 				<tests>
-					<test>ADC_TnH_tb_1
+					<test>ADC_Comparatorblock_1
 						<tool>ADE</tool>
 						<tooloptions>
 							<option>cell
-								<value>TnH_tb</value>
+								<value>Comparatorblock</value>
 							</option>
 							<option>lib
 								<value>ADC</value>
@@ -136,20 +139,9 @@
 								<value>ExplorerRun.0</value>
 							</option>
 						</tooloptions>
-						<outputs>
-							<output>/vin
-								<evalType>point</evalType>
-							</output>
-							<output>/clk
-								<evalType>point</evalType>
-							</output>
-							<output>/vout
-								<evalType>point</evalType>
-							</output>
-						</outputs>
 						<origoptions>
 							<option>cell
-								<value>TnH_tb</value>
+								<value>Comparatorblock</value>
 							</option>
 							<option>lib
 								<value>ADC</value>
@@ -164,6 +156,20 @@
 								<value>schematic</value>
 							</option>
 						</origoptions>
+						<outputs>
+							<output>/out
+								<evalType>point</evalType>
+							</output>
+							<output>/vin
+								<evalType>point</evalType>
+							</output>
+							<output>/clk
+								<evalType>point</evalType>
+							</output>
+							<output>/vref
+								<evalType>point</evalType>
+							</output>
+						</outputs>
 					</test>
 				</tests>
 				<extensions>
@@ -175,7 +181,7 @@
 				</extensions>
 				<currentmode>Single Run, Sweeps and Corners</currentmode>
 				<checksasserts netlist="0">
-					<test netlist="0" netlistscope="all">ADC_TnH_tb_1</test>
+					<test netlist="0" netlistscope="all">ADC_Comparatorblock_1</test>
 				</checksasserts>
 				<plottingoptions>
 					<plottingoption>plottype
@@ -263,28 +269,28 @@
 				</incrementalsimsetup>
 				<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
 				<runnabletests>
-					<test>ADC_TnH_tb_1</test>
+					<test>ADC_Comparatorblock_1</test>
 				</runnabletests>
 				<disabledtests></disabledtests>
 				<vars></vars>
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mar 13 16:53:11 2023</timestamp>
-			<uuid>{9b99b45f-2116-4b30-826b-0f3ea14a42b1}</uuid>
-			<resultsname>/root/Documents/vvgh/GPS/ADC/TnH_tb/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
+			<timestamp>Mar 13 16:36:16 2023</timestamp>
+			<uuid>{da8bad14-2570-4e9c-b409-c657e9ffd5fa}</uuid>
+			<resultsname></resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/islcadence2_root_165311121</localpsfdir>
-			<psfdir>/root/simulation/ADC/TnH_tb/maestro/results/maestro/ExplorerRun.0</psfdir>
-			<simdir>$AXL_PROJECT_DIR/ADC/TnH_tb/maestro/results/maestro/ExplorerRun.0</simdir>
+			<localpsfdir>/tmp/islcadence2_root_163616052</localpsfdir>
+			<psfdir></psfdir>
+			<simdir></simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<loggingdatabasedir>/root/Documents/vvgh/GPS/ADC/TnH_tb/maestro/results/maestro</loggingdatabasedir>
-			<runlog>/root/Documents/vvgh/GPS/ADC/TnH_tb/maestro/results/maestro/ExplorerRun.0.log</runlog>
+			<loggingdatabasedir>/root/Documents/vvgh/GPS/ADC/Comparatorblock/maestro/results/maestro</loggingdatabasedir>
+			<runlog></runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
