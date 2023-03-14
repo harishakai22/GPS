@@ -1,14 +1,14 @@
-\# Program start time:     UTC 2023.03.14 10:25:10.074
-\# Local time: IST (UTC+05:30) 2023.03.14 15:55:10.074
+\# Program start time:     UTC 2023.03.14 10:49:22.794
+\# Local time: IST (UTC+05:30) 2023.03.14 16:19:22.794
 \o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 04/27/2021 19:30 (cpgsrv11) $
 \o Hierarchy:		/home/install/IC618/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.8-64b.500.18  (64-bit addresses)
-\# Command line:	/home/install/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost islcadence1 -beanport 11300 -beanbinlog  -mpssession virtuoso30323 -mpshost islcadence1 -davinciService DaVinciService_30323_1678789507 -axlSession fnxSession0 -axlServiceIdFlag 1 -uuid cba5be72-f21a-4d70-af4e-c04e803c53a4 -heartbeat /dev/shm/swift-heartbeat.E5LzXx7W5E -log /root/Documents/GPS/logs_root/logs0/Service1.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D0997FD70FC06BC4D6BE483029968DD296DD3EC7AFC06867D66E38F1FFC06BC4D66E38F1FFC06BC4D02F3C49BB782D85D00001E71 -interactive -offlineExprEval -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300
+\# Command line:	/home/install/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost islcadence1 -beanport 11300 -beanbinlog  -mpssession virtuoso30323 -mpshost islcadence1 -davinciService DaVinciService_30323_1678789507 -axlSession fnxSession1 -axlServiceIdFlag 3 -uuid 1e4494f1-f668-4786-b2c0-10051a6b3967 -heartbeat /dev/shm/swift-heartbeat.aCmTHdvZYu -log /root/Documents/GPS/logs_root/logs0/Service3.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D0997FD70FC06BC4D6BE483029968DD296DD3EC7AFC06867D66E38F1FFC06BC4D66E38F1FFC06BC4D02F3DE2EAD37D85D00001E8B -interactive -offlineExprEval -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300
 \# Host name (type):	islcadence1 (x86_64)
 \# Operating system:	Linux 3.10.0-1160.el7.x86_64 #1 SMP Tue Aug 18 14:50:17 EDT 2020
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
-\# X display name (WxH):	:5627 (1024x868)
+\# X display name (WxH):	:8526 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
 \# X server:			Red Hat, Inc.
 \# Depth of Visual (Root):	24 (24)
@@ -18,11 +18,11 @@
 \# 			current id 0x0, current max 0x1ffffa (2097146)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        582 MB
-\# Available memory:	     17,738 MB
+\# Initial sbrk value:	        571 MB
+\# Available memory:	     17,692 MB
 \# System memory:	     23,479 MB
-\# Maximum memory size:	     23,088 MB
-\# Max mem available:	     17,928 MB
+\# Maximum memory size:	     23,099 MB
+\# Max mem available:	     17,882 MB
 \# Initial memory used:	        190 MB
 \#        process size:	      1,636 MB
 \# Thread usage limits (effective/default):	maxthreads 62400/62400 maxload 8.00/8.00
@@ -30,7 +30,7 @@
 \# Window Manager:	other
 \# User Name:		root
 \o Working Directory:	islcadence1:/root/Documents/GPS
-\# Process Id:		2306
+\# Process Id:		5228
 \o 
 \o COPYRIGHT (C) 1992-2021  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2021  UNIX SYSTEMS Laboratories INC.,
@@ -67,7 +67,6 @@
 \o Loading caa.cxt 
 \o Loading amps.cxt 
 \o Loading adexlCore.cxt 
-\# Memory report: using         330 MB, process size 1,860 MB at UTC 2023.03.14 10:25:12.072
 \o Loading adexl.cxt 
 \o *Info*    Exporting services from client ... 
 \o 
@@ -77,16 +76,17 @@
 \o Loading lp.cxt 
 \o INFO (ELI-00302) Connecting to parent process (session=virtuoso30323, host=islcadence1). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
 \o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
-\o INFO (ELI-00304) The registration of the child 2306 within 90 seconds is being processed...
+\o INFO (ELI-00304) The registration of the child 5228 within 90 seconds is being processed...
 \o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
 \o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
-\# [15:55:10.350089] Configured Lic search path (20.02-p002): 5280@cadence
+\# [16:19:22.350121] Configured Lic search path (20.02-p002): 5280@cadence
+\# Memory report: using         385 MB, process size 1,906 MB at UTC 2023.03.14 10:49:25.066
 \p > 
 \a _treeSetOpcGUI(t)
-\# [15:55:12.153121] Periodic Lic check successful
-\# [15:55:12.153122] Feature usage summary:
 \r t
 \i _axlRunServices()
+\# [16:19:25.073008] Periodic Lic check successful
+\# [16:19:25.073009] Feature usage summary:
 \o Loading gpdk045/libInit.il ...
 \o 	Loading gpdk045/loadCxt.ile ... done!
 \o 	Loading context 'gpdk045' from library 'gpdk045' ... done!
@@ -99,7 +99,6 @@
 \o Loading devCheck.cxt 
 \o Loading relXpert.cxt 
 \o Loading vdsil.cxt 
-\# Memory report: using         453 MB, process size 2,044 MB at UTC 2023.03.14 10:25:13.034
 \o Loading hspiceD.cxt 
 \o Loading spectreinl.cxt 
 \o Loading UltraSim.cxt 
@@ -192,10 +191,13 @@
 \w *WARNING* (defmethod): unknown class cds_ff_mptFgrGuardRing_ver_1 when defining vfoSfDraw method
 \w 
 \o done!
-\o Failed to load cds_ff_mpt/libInit.il successfully![2023-03-14 15:55:13.699 +0530] [process] - Netlist Service has successfully started. Waiting for incoming messages ... [Attributes] {"hostname": "islcadence1", "processid": 2306, "logfile": "/root/Documents/GPS/logs_root/logs0/Service1.log"}
+\o Failed to load cds_ff_mpt/libInit.il successfully![2023-03-14 16:19:25.988 +0530] [process] - Netlist Service has successfully started. Waiting for incoming messages ... [Attributes] {"hostname": "islcadence1", "processid": 5228, "logfile": "/root/Documents/GPS/logs_root/logs0/Service3.log"}
+\# Available memory:         17,478 MB at UTC 2023.03.14 10:49:34.003
+\# Memory report: Maximum memory size now 17,957 MB at UTC 2023.03.14 10:49:34.003
+\# Thread usage report: 13 active threads, active load 1.40 at UTC 2023.03.14 10:49:34.003
 \o Loading simui.cxt 
 \# Lic Summary:
-\# [15:55:19.196427] Cdslmd servers:5280@cadence
-\# [15:55:19.196435] Feature usage summary:
-\# Memory report: on exit            483 MB, process size 2,074 MB at UTC 2023.03.14 10:25:19.720
-\# Memory report: peak usage         483 MB, process size 2,074 MB
+\# [16:19:58.048251] Cdslmd servers:5280@cadence
+\# [16:19:58.048259] Feature usage summary:
+\# Memory report: on exit            484 MB, process size 2,074 MB at UTC 2023.03.14 10:49:58.048
+\# Memory report: peak usage         484 MB, process size 2,074 MB
