@@ -1,0 +1,9 @@
+// VerilogA for GPS, therm_bin_4bit, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module therm_bin_4bit;
+
+
+endmodule

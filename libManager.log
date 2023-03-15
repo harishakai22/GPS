@@ -1,187 +1,69 @@
 \o Program:		@(#)$CDS: libManager version 6.1.8 - CAT37 03/31/2021 15:41 (sjfdcl1031) $
 \o Sub version:		sub-version  s184 
-\o Arguments:		-unmapped -mpssession virtuoso19207 -mpshost islcadence2 
-\o Working Directory:	islcadence2:/root/Documents/vvgh/GPS
+\o Arguments:		-mpssession virtuoso11657 -mpshost islcadence1 
+\o Working Directory:	islcadence1:/root/Documents/GPS
 \o 64-bit offsets
 \o Qt version: 		5.9.1
-\o changeWorkingDir("/root/Documents/vvgh/GPS") unnecessary.
-\o ddSetForcedLib("") unnecessary.
-\o Log file is "/root/Documents/vvgh/GPS/libManager.log".
+\o Log file is "/root/Documents/GPS/libManager.log".
 \o Opening libManager window.
-\a nrSetWindowVisibility(cdsLibManager "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(0 28 1220 546))
+\o changeWorkingDir("/root/Documents/GPS") unnecessary.
+\o ddSetForcedLib("") unnecessary.
 \o MPS service: map window
 \o Library Manager customization server connected.
-\a nrSetCurrentWindow(cdsLibManager)
-\w Warning: LIB ADC from File /root/Documents/vvgh/GPS/cds.lib Line 2 redefines
-\w LIB ADC from File /root/cds.lib
-\w Insert UNDEFINE ADC
-\w before DEFINE ADC
-\w     in /root/Documents/vvgh/GPS/cds.lib
-\w Or remove or comment out DEFINE ADC
-\w     in /root/cds.lib
-\w to suppress this warning message.
-\w Warning: LIB LNA from File /root/Documents/vvgh/GPS/cds.lib Line 3 redefines
-\w LIB LNA from File /root/cds.lib
-\w Insert UNDEFINE LNA
-\w before DEFINE LNA
-\w     in /root/Documents/vvgh/GPS/cds.lib
-\w Or remove or comment out DEFINE LNA
-\w     in /root/cds.lib
-\w to suppress this warning message.
-\a nrResizeWindow(cdsLibManager list(240 112 1440 723))
 \a cdsLibManager->libListBox->value = "ADC"
 \a cdsLibManager->libLineEdit->value = "ADC"
-\a cdsLibManager->cellListBox->value = "Comparatorblock"
-\a cdsLibManager->cellLineEdit->value = "Comparatorblock"
-\a lmgrLogShowPopup("mainListPopup1" 303 3 2 "Comparatorblock")
-\a cdsLibManager->copySimpleButton->value = t
-\a copyCellForm->SkipLibrariesEdit->value = "*"
-\a copyCellForm->SkipLibrariesEdit->value = "*"
-\a copyCellForm->CopyFromLibrary->value = "ADC"
-\a copyCellForm->CopyToLibrary->value = "ADC"
-\a copyCellForm->CopyFromCell->value = "Comparatorblock"
-\a copyCellForm->CopyToCell->value = "Comparatorblock"
-\a copyCellForm->ViewsToCopy->value = "constraint maestro schematic"
-\a copyCellForm->SkipLibrariesEdit->value = ""
-\a copyCellForm->SkipLibrariesEdit->value = "GMIDOPAMP LNA NMOS NPTEL_Assignment SRC UMC_180 US_8ths adc ahdlLib analogLib avTech basic cdsDefTechLib cds_ff_mpt cds_ff_mpt_scl comp connectLib functional gm_id_ota gm|id gpdk045 gpdk045_sc gpdk45_iolib gpdk090 gpdk180 lc_vco niranjan nmos_TRIAL ota otagmid rfExamples rfLib rfTlineLib sample siva t1adc trial_inv wsp_cds_ff_mpt"
-\a nrSetWindowVisibility(copyCellForm "show")
-\a nrSetCurrentWindow(copyCellForm)
-\a nrResizeWindow(copyCellForm list(716 141 468 659))
-\a copyCellForm->CopyToCell->value = "15comp"
-\a copyCellForm->OK->value = t
-\o Beginning simple copy to library "ADC".
-\o Processing files to be copied...
-\a nrSetWindowVisibility(workingDialogForm "show")
-\a nrSetCurrentWindow(workingDialogForm)
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(copyCellForm list(716 67 468 659))
-\a nrResizeWindow(workingDialogForm list(814 367 273 133))
-\o Copy succeeded.
+\a cdsLibManager->libListBox->value = "GPS"
+\a cdsLibManager->libLineEdit->value = "GPS"
+\a cdsLibManager->libListBox->value = "ADC"
+\a cdsLibManager->libLineEdit->value = "ADC"
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
+\a _lmSetFilter( 'library "t")
+\a _lmSetFilter( 'library "th")
+\a _lmSetFilter( 'library "")
+\a cdsLibManager->libComboFilter->value = ""
 \a cdsLibManager->libListBox->value = "ADC"
 \a cdsLibManager->libLineEdit->value = "ADC"
-\a cdsLibManager->cellListBox->value = "Comparatorblock"
-\a cdsLibManager->cellLineEdit->value = "Comparatorblock"
-\a copyCellForm->SkipLibrariesEdit->value = "*"
-\a nrResizeWindow(workingDialogForm list(814 330 273 133))
-\a cdsLibManager->cellListBox->value = "15comp"
-\a cdsLibManager->cellLineEdit->value = "15comp"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 2 0)
-\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libListBox->value = "BANDGAP"
+\a cdsLibManager->libLineEdit->value = "BANDGAP"
+\a cdsLibManager->libListBox->value = "GPS"
+\a cdsLibManager->libLineEdit->value = "GPS"
 \a cdsLibManager->libLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellLineEdit->value = ""
-\w Warning: LIB ADC from File /root/Documents/vvgh/GPS/cds.lib Line 2 redefines
-\w LIB ADC from File /root/cds.lib
-\w Insert UNDEFINE ADC
-\w before DEFINE ADC
-\w     in /root/Documents/vvgh/GPS/cds.lib
-\w Or remove or comment out DEFINE ADC
-\w     in /root/cds.lib
-\w to suppress this warning message.
-\w Warning: LIB LNA from File /root/Documents/vvgh/GPS/cds.lib Line 3 redefines
-\w LIB LNA from File /root/cds.lib
-\w Insert UNDEFINE LNA
-\w before DEFINE LNA
-\w     in /root/Documents/vvgh/GPS/cds.lib
-\w Or remove or comment out DEFINE LNA
-\w     in /root/cds.lib
-\w to suppress this warning message.
-\a cdsLibManager->libListBox->value = "ADC"
-\a cdsLibManager->libLineEdit->value = "ADC"
-\a cdsLibManager->cellListBox->value = "15comp"
-\a cdsLibManager->cellLineEdit->value = "15comp"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS service: map window
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "Comparatorblock"
-\a cdsLibManager->cellLineEdit->value = "Comparatorblock"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellListBox->value = "TnH_tb"
-\a cdsLibManager->cellLineEdit->value = "TnH_tb"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->cellListBox->value = "TnH_tb"
-\a cdsLibManager->cellLineEdit->value = "TnH_tb"
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = nil
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->cellListBox 4 0)
 \a cdsLibManager->libListBox->value = nil
-\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "Inverter"
+\a cdsLibManager->libLineEdit->value = "Inverter"
+\a cdsLibManager->libListBox->value = "LNA"
+\a cdsLibManager->libLineEdit->value = "LNA"
+\a cdsLibManager->cellListBox->value = "s2d"
+\a cdsLibManager->cellLineEdit->value = "s2d"
+\a cdsLibManager->libListBox->value = "NMOS_gmid_sv"
+\a cdsLibManager->libLineEdit->value = "NMOS_gmid_sv"
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
-\w Warning: LIB ADC from File /root/Documents/vvgh/GPS/cds.lib Line 2 redefines
-\w LIB ADC from File /root/cds.lib
-\w Insert UNDEFINE ADC
-\w before DEFINE ADC
-\w     in /root/Documents/vvgh/GPS/cds.lib
-\w Or remove or comment out DEFINE ADC
-\w     in /root/cds.lib
-\w to suppress this warning message.
-\w Warning: LIB LNA from File /root/Documents/vvgh/GPS/cds.lib Line 3 redefines
-\w LIB LNA from File /root/cds.lib
-\w Insert UNDEFINE LNA
-\w before DEFINE LNA
-\w     in /root/Documents/vvgh/GPS/cds.lib
-\w Or remove or comment out DEFINE LNA
-\w     in /root/cds.lib
-\w to suppress this warning message.
-\a cdsLibManager->libListBox->value = "ADC"
-\a cdsLibManager->libLineEdit->value = "ADC"
-\a cdsLibManager->cellListBox->value = "TnH_tb"
-\a cdsLibManager->cellLineEdit->value = "TnH_tb"
+\a cdsLibManager->cellListBox->value = "NMOS_gmid"
+\a cdsLibManager->cellLineEdit->value = "NMOS_gmid"
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->libListBox->value = "NPTEL_Assignment"
+\a cdsLibManager->libLineEdit->value = "NPTEL_Assignment"
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewLineEdit->value = ""
-\a cdsLibManager->viewListBox->value = "schematic"
-\a cdsLibManager->viewLineEdit->value = "schematic"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\a cdsLibManager->libListBox->value = "OPAMP"
+\a cdsLibManager->libLineEdit->value = "OPAMP"
+\a cdsLibManager->libListBox->value = "avTech"
+\a cdsLibManager->libLineEdit->value = "avTech"
+\a cdsLibManager->libListBox->value = "benchmark"
+\a cdsLibManager->libLineEdit->value = "benchmark"
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(0 28 1207 546))
 \a nrSetWindowVisibility(cdsLibManager "hide")
 \a _lmgrCloseIconify("cdsLibManager" 1)
 \a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a _lmgrCloseIconify("cdsLibManager" 1)
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\a _lmgrCloseIconify("cdsLibManager" 1)
-\a nrSetWindowVisibility(cdsLibManager "show")
-\a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetWindowVisibility(cdsLibManager "hide")
 \a _lmgrCloseIconify("cdsLibManager" 1)

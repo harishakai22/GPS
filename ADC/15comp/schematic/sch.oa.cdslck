@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      root
+HostName                       islcadence1
+ProcessIdentifier              7444
+ProcessCreationTime_UTC        1678874933
+ProcessCreationTime_Readable   Wed Mar 15 15:38:53 2023 IST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /root/Documents/GPS/ADC/15comp/schematic/sch.oa.cdslck
+TimeEditLocked                 Wed Mar 15 15:39:16 2023 IST
