@@ -71,6 +71,30 @@
 					<output>((VT("/o1") + VT("/o2") + VT("/o3") + VT("/o4") + VT("/o5") + VT("/o6") + VT("/o7") + VT("/o8") + VT("/o9") + VT("/o10") + VT("/o11") + VT("/o12") + VT("/o13") + VT("/o14") + VT("/o15")) / 22.5)
 						<evalType>point</evalType>
 					</output>
+					<output>/I42/P
+						<evalType>point</evalType>
+					</output>
+					<output>/I42/Q
+						<evalType>point</evalType>
+					</output>
+					<output>/I42/X
+						<evalType>point</evalType>
+					</output>
+					<output>/I42/Y
+						<evalType>point</evalType>
+					</output>
+					<output>/outtest
+						<evalType>point</evalType>
+					</output>
+					<output>(VT("/vin") - 0.6)
+						<evalType>point</evalType>
+					</output>
+					<output>((VT("/o1") + VT("/o2") + VT("/o3") + VT("/o4") + VT("/o5") + VT("/o6") + VT("/o7") + VT("/o8") + VT("/o9") + VT("/o10") + VT("/o11") + VT("/o12") + VT("/o13") + VT("/o14") + VT("/o15")) / (1.8 * 15))
+						<evalType>point</evalType>
+					</output>
+					<output>((VT("/o1") + VT("/o2") + VT("/o3") + VT("/o4") + VT("/o5") + VT("/o6") + VT("/o7") + VT("/o8") + VT("/o9") + VT("/o10") + VT("/o11") + VT("/o12") + VT("/o13") + VT("/o14") + VT("/o15")) / (1.8 * 16))
+						<evalType>point</evalType>
+					</output>
 				</outputs>
 			</test>
 		</tests>
@@ -193,6 +217,30 @@
 							<output>((VT("/o1") + VT("/o2") + VT("/o3") + VT("/o4") + VT("/o5") + VT("/o6") + VT("/o7") + VT("/o8") + VT("/o9") + VT("/o10") + VT("/o11") + VT("/o12") + VT("/o13") + VT("/o14") + VT("/o15")) / 22.5)
 								<evalType>point</evalType>
 							</output>
+							<output>/I42/P
+								<evalType>point</evalType>
+							</output>
+							<output>/I42/Q
+								<evalType>point</evalType>
+							</output>
+							<output>/I42/X
+								<evalType>point</evalType>
+							</output>
+							<output>/I42/Y
+								<evalType>point</evalType>
+							</output>
+							<output>/outtest
+								<evalType>point</evalType>
+							</output>
+							<output>(VT("/vin") - 0.6)
+								<evalType>point</evalType>
+							</output>
+							<output>((VT("/o1") + VT("/o2") + VT("/o3") + VT("/o4") + VT("/o5") + VT("/o6") + VT("/o7") + VT("/o8") + VT("/o9") + VT("/o10") + VT("/o11") + VT("/o12") + VT("/o13") + VT("/o14") + VT("/o15")) / (1.8 * 15))
+								<evalType>point</evalType>
+							</output>
+							<output>((VT("/o1") + VT("/o2") + VT("/o3") + VT("/o4") + VT("/o5") + VT("/o6") + VT("/o7") + VT("/o8") + VT("/o9") + VT("/o10") + VT("/o11") + VT("/o12") + VT("/o13") + VT("/o14") + VT("/o15")) / (1.8 * 16))
+								<evalType>point</evalType>
+							</output>
 						</outputs>
 					</test>
 				</tests>
@@ -300,8 +348,8 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mar 14 17:07:08 2023</timestamp>
-			<uuid>{73649977-ae93-4b32-a072-222b523d14f6}</uuid>
+			<timestamp>Mar 15 12:56:26 2023</timestamp>
+			<uuid>{e99c3eb0-04a9-41fd-8cfe-937d01cff921}</uuid>
 			<resultsname>/root/Documents/GPS/ADC/15comp/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -309,7 +357,7 @@
 			</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/islcadence1_root_170708613</localpsfdir>
+			<localpsfdir>/tmp/islcadence1_root_125626370</localpsfdir>
 			<psfdir>/root/simulation/ADC/15comp/maestro/results/maestro/ExplorerRun.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/ADC/15comp/maestro/results/maestro/ExplorerRun.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
@@ -318,7 +366,6 @@
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
-			<locked>0</locked>
 		</historyentry>
 	</history>
 </setupdb>

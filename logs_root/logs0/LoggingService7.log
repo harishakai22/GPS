@@ -1,0 +1,3 @@
+[Logging Service: 7]
+[2023-03-15 11:27:30.973 +0530] [INFO] [cadence.virtuoso.ade.loggingservice] - HistoryRecorderManager init : {"dbBasePath": "/root/Documents/GPS/ADC/15comp/maestro/results/maestro"}
+[2023-03-15 11:27:30.973 +0530] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service has successfully started. Waiting for incoming messages ... : {"hostname": "islcadence1", "processid": 20952, "logfile": "/root/Documents/GPS/logs_root/logs0/LoggingService7.log"}

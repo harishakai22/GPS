@@ -1,106 +1,139 @@
-*Info*    Exporting services from client ... 
-
-*Info*    Client has finished starting ... 
-
-
-
-*Info*    Configuring the session ...
-
-	Library      = ADC
-	Cell         = compfirstpass
-	View         = schematic
-	Simulator    = spectre
-	State Path   = $AXL_SETUPDB_DIR/test_states
-	State Name   = ExplorerRun.0
-	Results DB   = /root/Documents/vvgh/GPS/ADC/compfirstpass/maestro/results/maestro/ExplorerRun.0.rdb
-	Results Dir  = /root/simulation/ADC/compfirstpass/maestro/results/maestro/ExplorerRun.0/1/ADC:compfirstpass:1
-	Results Loc  = /root/simulation/ADC/compfirstpass/maestro/results/maestro
-	Project Dir  = /root/simulation
-	Setup DB loc = /root/Documents/vvgh/GPS/ADC/compfirstpass/maestro
-	File Encoding = 0
-
-
-*Info*    The simulation mode in Spectre has been changed from
-          'interactive' to 'batch' mode because ICLP.
-
-
-*Info*    The auto suspension is disabled.
-
-
-
-
-
-
-*Info*    Run start for Point ID (2 1) on testbench [
-          ADC:compfirstpass:1 ].
-
-Resetting statistical vars
-
-*Info*    Setting parameter values ...
-
-Setting temp(T) = 27
-
-*Info*    Netlist Directory =
-          /root/simulation/ADC/compfirstpass/maestro/results/maestro/ExplorerRun.0/1/ADC:compfirstpass:1/netlist
-
-
-*Info*    Data Directory    =
-          /root/simulation/ADC/compfirstpass/maestro/results/maestro/ExplorerRun.0/1/ADC:compfirstpass:1
-
-
-*Info*    Creating Netlist for Point ID (2 1)
-
-generate netlist...
-Begin Incremental Netlisting Feb 17 11:36:43 2023
-ERROR (OSSHNL-109): The cellview 'ADC/compfirstpass/schematic' has been modified since the last extraction. Validate
-that the schematic is correct and run Check and Save to correct this error.
-
-End netlisting Feb 17 11:36:43 2023
-ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
-      ...unsuccessful.
-
-*Error*   Error ID  = 5012
-*Error*   Error Msg = Failed to create netlist.
-
-
-
-
-
-
-
-
-
-*Info*    Run start for Point ID (2 1) on testbench [
-          ADC:compfirstpass:1 ].
-
-Resetting statistical vars
-
-*Info*    Setting parameter values ...
-
-Setting temp(T) = 27
-
-*Info*    Netlist Directory =
-          /root/simulation/ADC/compfirstpass/maestro/results/maestro/ExplorerRun.0/1/ADC:compfirstpass:1/netlist
-
-
-*Info*    Data Directory    =
-          /root/simulation/ADC/compfirstpass/maestro/results/maestro/ExplorerRun.0/1/ADC:compfirstpass:1
-
-
-*Info*    Creating Netlist for Point ID (2 1)
-
-generate netlist...
-Begin Incremental Netlisting Feb 17 11:36:53 2023
-ERROR (OSSHNL-109): The cellview 'ADC/compfirstpass/schematic' has been modified since the last extraction. Validate
-that the schematic is correct and run Check and Save to correct this error.
-
-End netlisting Feb 17 11:36:53 2023
-ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
-      ...unsuccessful.
-
-*Error*   Error ID  = 5012
-*Error*   Error Msg = Failed to create netlist.
-
-
-
-
+[Spectre Monitor: 4]
+[2023-03-15 10:10:09.756 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Spectre Monitor has successfully started up. Trying to set up communication channels to other components ... : {"hostname": "islcadence1", "processid": 11992, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log"}
+[2023-03-15 10:10:09.757 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Started History : {"hostname": "islcadence1", "processid": 11992, "history": "ExplorerRun.0", "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log"}
+[2023-03-15 10:10:09.790 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Communication channels have been successfully set up. Start processing events ... : {"hostname": "islcadence1", "processid": 11992, "history": "ExplorerRun.0", "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log"}
+[2023-03-15 10:10:09.871 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - HostInfo:
+Host name (type):	islcadence1 (x86_64)
+Operating system:	Linux 3.10.0-1160.el7.x86_64 #1 SMP Tue Aug 18 14:50:17 EDT 2020 : {"hostname": "islcadence1", "processid": 11992, "history": "ExplorerRun.0", "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log", "nodename": "islcadence1", "domainname": "(none)", "machine": "x86_64", "sysname": "Linux", "release": "3.10.0-1160.el7.x86_64", "version": "#1 SMP Tue Aug 18 14:50:17 EDT 2020"}
+[2023-03-15 10:10:09.871 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - UsageInfo:
+pid=11992
+totalPhysicalMemory=15.303967GB,Used=4.410789GB,totalVirtualMemory=22.928963GB,Used=4.410789GB
+Cpu: Cores=8, Load average:0.970000,0.420000,0.240000 : {"hostname": "islcadence1", "processid": 11992, "history": "ExplorerRun.0", "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log", "pid": "11992", "totalPhysicalMemory": "15.303967", "physicalMemoryUsed": "4.410789", "totalVirtualMemory": "22.928963", "virtualMemoryUsed": "4.410789", "cpuCores": "8", "processes": "629", "loadAverage1": "0.970000", "loadAverage5": "0.420000", "loadAverage15": "0.240000", "loadAverage1Percent": "0.121250"}
+[2023-03-15 10:10:09.874 +0530] [EVENT] [cadence.virtuoso.ade.spectreMonitor] - NewPoint : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal", "event": "NewPoint", "EventSource": "Spectre Monitor", "HistoryName": "ExplorerRun.0", "logFile": "/root/Documents/GPS/logs_root/logs0/Job4.log", "logFileSize": "2087"}
+[2023-03-15 10:10:09.874 +0530] [EVENT] [cadence.virtuoso.ade.spectreMonitor] - NewPoint : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal", "event": "NewPoint", "EventSource": "spectre", "HistoryName": "ExplorerRun.0", "logFile": "/root/simulation/ADC/15comp/maestro/results/maestro/ExplorerRun.0/1/ADC_15comp_1/psf/spectre.out", "logFileSize": "-1"}
+[2023-03-15 10:10:09.876 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Launched simulator : {"hostname": "islcadence1", "processid": 11992, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log", "simid": "1"}
+[2023-03-15 10:10:09.877 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Launched evaluator : {"hostname": "islcadence1", "processid": 11992, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log"}
+[2023-03-15 10:10:10.454 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 70.4 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:10:10.454 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 78.7 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:10:10.454 +0530] [WARN] [cadence.virtuoso.ade.spectreMonitor] -     WARNING (SPECTRE-17101): The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:10:10.455 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 80.2 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:10:10.455 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:10:10.455 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] -               nodes 186 : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:10:10.455 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during initial setup.
+    1 vsources are shorted because their absolute value is less than or equal to 'vabsshort'.
+    APS enabled. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:10:10.956 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 81.7 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:10:10.957 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during IC analysis, during transient analysis `tran'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.net8) = 6.44672 mV
+        Use the `gmin_check' option to eliminate or expand this report. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:10:10.957 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during transient analysis `tran'.
+    Multithreading is disabled due to the size of the design being too small. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:10:12.961 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Total time required for tran analysis `tran': CPU = 2.3258 s, elapsed = 2.38824 s. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:10:12.961 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 133 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:10:13.962 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Finished simulating for one point : {"hostname": "islcadence1", "processid": 11992, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log", "simid": "1"}
+[2023-03-15 10:10:13.963 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Time used: CPU = 2.52 s, elapsed = 3.54 s, util. = 71%. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:10:13.963 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Time spent in licensing: elapsed = 75.2 ms. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:10:13.964 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak memory used = 134 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:10:13.964 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Simulation started at: 10:10:09 AM, Wed Mar 15, 2023, ended at: 10:10:13 AM, Wed Mar 15, 2023, with elapsed time (wall clock): 3.54 s. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:10:13.964 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - spectre completes with 0 errors, 1 warning, and 6 notices. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:10:13.964 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Finished Simulation : {"hostname": "islcadence1", "processid": 11992, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log", "simid": "1"}
+[2023-03-15 10:10:14.968 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Point Finished : {"hostname": "islcadence1", "processid": 11992, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log"}
+[2023-03-15 10:13:14.466 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - HostInfo:
+Host name (type):	islcadence1 (x86_64)
+Operating system:	Linux 3.10.0-1160.el7.x86_64 #1 SMP Tue Aug 18 14:50:17 EDT 2020 : {"hostname": "islcadence1", "processid": 11992, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log", "nodename": "islcadence1", "domainname": "(none)", "machine": "x86_64", "sysname": "Linux", "release": "3.10.0-1160.el7.x86_64", "version": "#1 SMP Tue Aug 18 14:50:17 EDT 2020"}
+[2023-03-15 10:13:14.467 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - UsageInfo:
+pid=11992
+totalPhysicalMemory=15.303967GB,Used=4.925304GB,totalVirtualMemory=22.928963GB,Used=4.925304GB
+Cpu: Cores=8, Load average:0.390000,0.470000,0.300000 : {"hostname": "islcadence1", "processid": 11992, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log", "pid": "11992", "totalPhysicalMemory": "15.303967", "physicalMemoryUsed": "4.925304", "totalVirtualMemory": "22.928963", "virtualMemoryUsed": "4.925304", "cpuCores": "8", "processes": "632", "loadAverage1": "0.390000", "loadAverage5": "0.470000", "loadAverage15": "0.300000", "loadAverage1Percent": "0.048750"}
+[2023-03-15 10:13:14.469 +0530] [EVENT] [cadence.virtuoso.ade.spectreMonitor] - NewPoint : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal", "event": "NewPoint", "EventSource": "Spectre Monitor", "HistoryName": "ExplorerRun.0", "logFile": "/root/Documents/GPS/logs_root/logs0/Job4.log", "logFileSize": "10256"}
+[2023-03-15 10:13:14.470 +0530] [EVENT] [cadence.virtuoso.ade.spectreMonitor] - NewPoint : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal", "event": "NewPoint", "EventSource": "spectre", "HistoryName": "ExplorerRun.0", "logFile": "/root/simulation/ADC/15comp/maestro/results/maestro/ExplorerRun.0/1/ADC_15comp_1/psf/spectre.out", "logFileSize": "-1"}
+[2023-03-15 10:13:14.472 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Launched simulator : {"hostname": "islcadence1", "processid": 11992, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log", "simid": "2"}
+[2023-03-15 10:13:14.473 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Launched evaluator : {"hostname": "islcadence1", "processid": 11992, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log"}
+[2023-03-15 10:13:15.037 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 68.8 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:13:15.037 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 77 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:13:15.038 +0530] [WARN] [cadence.virtuoso.ade.spectreMonitor] -     WARNING (SPECTRE-17101): The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:13:15.038 +0530] [WARN] [cadence.virtuoso.ade.spectreMonitor] -     WARNING (SPECTRE-8527): There are some nodes and instances removed from the netlist topology check. Check the circuit and correct the topology. Or use preserve_inst to keep them if necessary. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:13:15.038 +0530] [WARN] [cadence.virtuoso.ade.spectreMonitor] -     WARNING (SPECTRE-8528): The V2 device is removed because its terminals are connected together. Check the device in the netlist file to ensure that this warning can be ignored. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:13:15.038 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 78.4 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:13:15.039 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:13:15.039 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] -               nodes 154 : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:13:15.039 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during initial setup.
+    16 resistors are shorted because their absolute value is less than or equal to 'rabsshort'.
+    1 vsources are shorted because their absolute value is less than or equal to 'vabsshort'.
+    APS enabled. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:13:15.040 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 79.9 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:13:15.040 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during IC analysis, during transient analysis `tran'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I39.net8) = 6.75133 mV
+        Use the `gmin_check' option to eliminate or expand this report. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:13:15.040 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during transient analysis `tran'.
+    Multithreading is disabled due to the size of the design being too small. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:13:15.040 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre at time = 15.848 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node I35.net1. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:13:15.041 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre at time = 20 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node I35.net1. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:13:15.041 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre at time = 23.037 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node V0:p. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:13:15.041 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre at time = 25.4039 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node V0:p. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:13:15.041 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre at time = 30 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node V0:p.
+        Further occurrences of this notice will be suppressed. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:13:15.542 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during transient analysis `tran'.
+    Trapezoidal ringing is detected during tran analysis.
+        Please use method=trap for better results and performance. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:13:15.543 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Total time required for tran analysis `tran': CPU = 539.858 ms, elapsed = 560.681 ms. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:13:15.543 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 97 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:13:15.543 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre.
+    193 notices suppressed. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:13:16.044 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Finished simulating for one point : {"hostname": "islcadence1", "processid": 11992, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log", "simid": "2"}
+[2023-03-15 10:13:16.044 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Time used: CPU = 708 ms, elapsed = 1.08 s, util. = 65.8%. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:13:16.044 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Time spent in licensing: elapsed = 78.6 ms, percentage of total = 7.3%. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:13:16.045 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak memory used = 97.9 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:13:16.045 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Simulation started at: 10:13:14 AM, Wed Mar 15, 2023, ended at: 10:13:15 AM, Wed Mar 15, 2023, with elapsed time (wall clock): 1.08 s. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:13:16.045 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - spectre completes with 0 errors, 3 warnings, and 14 notices. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:13:16.045 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Finished Simulation : {"hostname": "islcadence1", "processid": 11992, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log", "simid": "2"}
+[2023-03-15 10:13:17.549 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Point Finished : {"hostname": "islcadence1", "processid": 11992, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log"}
+[2023-03-15 10:14:07.811 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - HostInfo:
+Host name (type):	islcadence1 (x86_64)
+Operating system:	Linux 3.10.0-1160.el7.x86_64 #1 SMP Tue Aug 18 14:50:17 EDT 2020 : {"hostname": "islcadence1", "processid": 11992, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log", "nodename": "islcadence1", "domainname": "(none)", "machine": "x86_64", "sysname": "Linux", "release": "3.10.0-1160.el7.x86_64", "version": "#1 SMP Tue Aug 18 14:50:17 EDT 2020"}
+[2023-03-15 10:14:07.811 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - UsageInfo:
+pid=11992
+totalPhysicalMemory=15.303967GB,Used=4.921932GB,totalVirtualMemory=22.928963GB,Used=4.921932GB
+Cpu: Cores=8, Load average:0.440000,0.480000,0.320000 : {"hostname": "islcadence1", "processid": 11992, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log", "pid": "11992", "totalPhysicalMemory": "15.303967", "physicalMemoryUsed": "4.921932", "totalVirtualMemory": "22.928963", "virtualMemoryUsed": "4.921932", "cpuCores": "8", "processes": "632", "loadAverage1": "0.440000", "loadAverage5": "0.480000", "loadAverage15": "0.320000", "loadAverage1Percent": "0.055000"}
+[2023-03-15 10:14:07.814 +0530] [EVENT] [cadence.virtuoso.ade.spectreMonitor] - NewPoint : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal", "event": "NewPoint", "EventSource": "Spectre Monitor", "HistoryName": "ExplorerRun.0", "logFile": "/root/Documents/GPS/logs_root/logs0/Job4.log", "logFileSize": "21389"}
+[2023-03-15 10:14:07.814 +0530] [EVENT] [cadence.virtuoso.ade.spectreMonitor] - NewPoint : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal", "event": "NewPoint", "EventSource": "spectre", "HistoryName": "ExplorerRun.0", "logFile": "/root/simulation/ADC/15comp/maestro/results/maestro/ExplorerRun.0/1/ADC_15comp_1/psf/spectre.out", "logFileSize": "-1"}
+[2023-03-15 10:14:07.817 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Launched simulator : {"hostname": "islcadence1", "processid": 11992, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log", "simid": "3"}
+[2023-03-15 10:14:07.817 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Launched evaluator : {"hostname": "islcadence1", "processid": 11992, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log"}
+[2023-03-15 10:14:08.372 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 71.3 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:14:08.372 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 79.5 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:14:08.372 +0530] [WARN] [cadence.virtuoso.ade.spectreMonitor] -     WARNING (SPECTRE-17101): The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:14:08.373 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 81 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:14:08.373 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:14:08.373 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] -               nodes 154 : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:14:08.373 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during initial setup.
+    1 vsources are shorted because their absolute value is less than or equal to 'vabsshort'.
+    APS enabled. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:14:08.374 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 82.4 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:14:08.374 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during IC analysis, during transient analysis `tran'.
+    GminDC = 1 pS is large enough to noticeably affect the DC solution.
+        dV(I0.net8) = 6.44672 mV
+        Use the `gmin_check' option to eliminate or expand this report. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:14:08.374 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during transient analysis `tran'.
+    Multithreading is disabled due to the size of the design being too small. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:14:10.878 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Finished simulating for one point : {"hostname": "islcadence1", "processid": 11992, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log", "simid": "3"}
+[2023-03-15 10:14:10.878 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Total time required for tran analysis `tran': CPU = 2.25496 s, elapsed = 2.27622 s. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:14:10.879 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 127 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:14:10.879 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Time used: CPU = 2.43 s, elapsed = 2.75 s, util. = 88.4%. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:14:10.879 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Time spent in licensing: elapsed = 73.7 ms. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:14:10.879 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak memory used = 128 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:14:10.880 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Simulation started at: 10:14:07 AM, Wed Mar 15, 2023, ended at: 10:14:10 AM, Wed Mar 15, 2023, with elapsed time (wall clock): 2.75 s. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:14:10.880 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - spectre completes with 0 errors, 1 warning, and 6 notices. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-15 10:14:10.880 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Finished Simulation : {"hostname": "islcadence1", "processid": 11992, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log", "simid": "3"}
+[2023-03-15 10:14:11.883 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Point Finished : {"hostname": "islcadence1", "processid": 11992, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log"}
+[2023-03-15 10:19:12.342 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Current memory used: 25.6211 MBytes, peak memory used: 25.6211 MBytes : {"hostname": "islcadence1", "processid": 11992, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log"}
+[2023-03-15 10:19:12.343 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Spectre Monitor process exit. : {"hostname": "islcadence1", "processid": 11992, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log"}
