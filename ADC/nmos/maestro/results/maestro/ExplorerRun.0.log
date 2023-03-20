@@ -1,0 +1,14 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Tue Mar 14 16:50:12 2023 
+Best design point: 1
+Design specs: 
+	ADC_nmos_1	corner	Nominal - 
+	((VDC("/net2") - VDC("/net1")) / IDC("/NM0/D"))		62.92K
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 20
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Tue Mar 14 16:50:52 2023 

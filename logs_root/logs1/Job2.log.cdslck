@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      root
+HostName                       islcadence2
+ProcessIdentifier              13083
+ProcessCreationTime_UTC        1679307696
+ProcessCreationTime_Readable   Mon Mar 20 15:51:36 2023 IST
+AppIdentifier                  /home/install/IC618/tools.lnx86/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Set lock by hiiLockFile
+FilePathUsedToEditLock         /root/Documents/vvgh/GPS/logs_root/logs1/Job2.log
+TimeEditLocked                 Mon Mar 20 15:51:37 2023 IST

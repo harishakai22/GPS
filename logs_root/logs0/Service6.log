@@ -1,0 +1,78 @@
+\# Program start time:     UTC 2023.03.14 06:48:32.609
+\# Local time: IST (UTC+05:30) 2023.03.14 12:18:32.609
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 04/27/2021 19:30 (cpgsrv11) $
+\o Hierarchy:		/home/install/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.18  (64-bit addresses)
+\# Command line:	/home/install/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost islcadence2 -beanport 11300 -beanbinlog  -mpssession virtuoso26297 -mpshost islcadence2 -davinciService DaVinciService_26297_1678775807 -axlSession fnxSession4 -axlServiceIdFlag 6 -uuid 9fcf79c7-e5bd-4f7c-a2d0-735bfe08971b -heartbeat /dev/shm/swift-heartbeat.tNELdNA362 -log /root/Documents/vvgh/GPS/logs_root/logs0/Service6.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D0997FD70FC06BC4D6BE483029968DD296ED3EC7AFC06867D66E38F1FFC06BC4D66E38F1FFC06BC4D02F397A0E4B9D85D00001E72 -interactive -offlineExprEval -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300
+\# Host name (type):	islcadence2 (x86_64)
+\# Operating system:	Linux 3.10.0-1160.el7.x86_64 #1 SMP Tue Aug 18 14:50:17 EDT 2020
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:2958 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			Red Hat, Inc.
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 11004000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        575 MB
+\# Available memory:	     16,188 MB
+\# System memory:	     23,700 MB
+\# Maximum memory size:	     23,315 MB
+\# Max mem available:	     16,379 MB
+\# Initial memory used:	        190 MB
+\#        process size:	      1,636 MB
+\# Thread usage limits (effective/default):	maxthreads 62583/62583 maxload 8.00/8.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		root
+\o Working Directory:	islcadence2:/root/Documents/vvgh/GPS
+\# Process Id:		2539
+\o 
+\o COPYRIGHT (C) 1992-2021  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2021  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\# Memory report: using         351 MB, process size 1,874 MB at UTC 2023.03.14 06:48:35.721
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 
+\o Loading simui.cxt 
+\# Memory report: on exit            351 MB, process size 1,876 MB at UTC 2023.03.14 06:48:35.728
+\# Memory report: peak usage         351 MB, process size 1,876 MB

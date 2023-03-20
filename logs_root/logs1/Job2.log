@@ -1,0 +1,350 @@
+\# Program start time:     UTC 2023.03.20 10:21:37.094
+\# Local time: IST (UTC+05:30) 2023.03.20 15:51:37.094
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 04/27/2021 19:30 (cpgsrv11) $
+\o Hierarchy:		/home/install/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.18  (64-bit addresses)
+\# Command line:	/home/install/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso20308 -mpshost islcadence2 -davinciService DaVinciService_20308_1679295714 -log /root/Documents/vvgh/GPS/logs_root/logs1/Job2.log -licenseLockFileName /root/Documents/vvgh/GPS/.tmp_root/.islcadence2_20308 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 2
+\# Host name (type):	islcadence2 (x86_64)
+\# Operating system:	Linux 3.10.0-1160.el7.x86_64 #1 SMP Tue Aug 18 14:50:17 EDT 2020
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:6122 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			Red Hat, Inc.
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 11004000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        562 MB
+\# Available memory:	     14,702 MB
+\# System memory:	     23,700 MB
+\# Maximum memory size:	     23,329 MB
+\# Max mem available:	     14,893 MB
+\# Initial memory used:	        190 MB
+\#        process size:	      1,636 MB
+\# Thread usage limits (effective/default):	maxthreads 62583/62583 maxload 8.00/8.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		root
+\o Working Directory:	islcadence2:/root/Documents/vvgh/GPS
+\# Process Id:		13083
+\o 
+\o COPYRIGHT (C) 1992-2021  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2021  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\# Memory report: using         301 MB, process size 1,734 MB at UTC 2023.03.20 10:21:39.022
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso20308, host=islcadence2). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 13083 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [15:51:37.350129] Configured Lic search path (20.02-p002): 5280@cadence
+\o *Info*    Client has finished starting ... 
+\o 
+\o Loading vdsil.cxt 
+\p > 
+\a _treeSetOpcGUI(t)
+\# [15:51:39.388449] Periodic Lic check successful
+\# [15:51:39.388450] Feature usage summary:
+\r t
+\o Loading vqp.cxt 
+\o Loading hdlPkg.cxt 
+\o Loading spectrei.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o Loading simui.cxt 
+\o 	Library      = ADC
+\o 	Cell         = 15comp
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = ADC:15comp:1_tmpstate.143302914_MonteCarlo.0
+\o 	Results DB   = /root/Documents/vvgh/GPS/ADC/15comp/adexl/results/data/MonteCarlo.0.rdb
+\o 	Results Dir  = /root/simulation/ADC/15comp/adexl/results/data/MonteCarlo.0/1/ADC:15comp:1
+\o 	Results Loc  = /root/simulation/ADC/15comp/adexl/results/data
+\o 	Project Dir  = /root/simulation
+\o 	Setup DB loc = /root/Documents/vvgh/GPS/ADC/15comp/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\o Loading gpdk180/libInit.il ...
+\o 	Loading gpdk180/loadCxt.ile ... done!
+\o 	Loading context 'gpdk180' from library 'gpdk180' ... done!
+\o 	Loading context 'pdkUtils' from library 'gpdk180' ... done!
+\o 	Loading gpdk180/.cdsenv ... done!
+\# Memory report: using         408 MB, process size 1,998 MB at UTC 2023.03.20 10:21:40.016
+\o 	Loading gpdk180/display.drf ... done!
+\o 	Loading gpdk180/libInitCustomExit.il ... Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o 
+\o   *************************************************************           
+\o   *              Cadence Design Systems, Inc.                 *           
+\o   *                                                           *           
+\o   *                    Generic 180nm PDK                      *           
+\o   *                        (gpdk180)                          *           
+\o   *                                                           *           
+\o   *                       Version 3.2                         *           
+\o   *                                                           *           
+\o   *************************************************************           
+\o done!
+\o Loaded gpdk180/libInit.il successfully!
+\o WARNING (ADE-7017): The Spectre run mode needs to be 'batch' when EM/IR analysis is enabled. Automatically setting the run mode to 'batch'.
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading monte.cxt 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 1) on testbench [ ADC:15comp:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /root/simulation/ADC/15comp/adexl/results/data/MonteCarlo.0/1/ADC:15comp:1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /root/simulation/ADC/15comp/adexl/results/data/MonteCarlo.0/1/ADC:15comp:1/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 1)
+\o 
+\w *WARNING* (CMGR-6145): Cannot refresh 'ci:0x0' because it is not a valid constraint cache. Rerun the 'ciRefreshCellView' SKILL function with a valid constraint cache.
+\o generate netlist...
+\o Loading seCore.cxt 
+\o Initializing the control file using cp:
+\o     cp /home/install/IC618/tools.lnx86/dfII/etc/si/control.spectre /root/simulation/ADC/15comp/adexl/results/data/MonteCarlo.0/1/ADC:15comp:1/groupRunDataDir/netlist/control
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting Mar 20 15:51:41 2023
+\o ERROR (OSSHNL-109): The cellview 'ADC/15comp/schematic' has been modified since the last extraction. Validate
+\o that the schematic is correct and run Check and Save to correct this error.
+\o 
+\o End netlisting Mar 20 15:51:41 2023
+\o ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
+\o       ...unsuccessful.
+\e *Error* Error during netlisting of design for the point ID (0 1).
+\e ("error" 0 t nil ("*Error* "))
+\e 
+\e 
+\o 
+\o *Error*   Error ID  = 5012
+\o *Error*   Error Msg = Failed to create netlist.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (0 1) on testbench [ ADC:15comp:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /root/simulation/ADC/15comp/adexl/results/data/MonteCarlo.0/1/ADC:15comp:1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /root/simulation/ADC/15comp/adexl/results/data/MonteCarlo.0/1/ADC:15comp:1/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (0 1)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 20 15:51:41 2023
+\o ERROR (OSSHNL-109): The cellview 'ADC/15comp/schematic' has been modified since the last extraction. Validate
+\o that the schematic is correct and run Check and Save to correct this error.
+\o 
+\o End netlisting Mar 20 15:51:41 2023
+\o ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
+\o       ...unsuccessful.
+\e *Error* Error during netlisting of design for the point ID (0 1).
+\e ("error" 0 t nil ("*Error* "))
+\e 
+\e 
+\o 
+\o *Error*   Error ID  = 5012
+\o *Error*   Error Msg = Failed to create netlist.
+\o 
+\o 
+\o 
+\o 
+\# Available memory:         14,459 MB at UTC 2023.03.20 10:21:48.019
+\# Memory report: Maximum memory size now 14,953 MB at UTC 2023.03.20 10:21:48.019
+\# Thread usage report: 13 active threads, active load 1.40 at UTC 2023.03.20 10:21:48.019
+\w *WARNING* aaDeleteEventCB: cb lambda((_simID status) _asiMCPostSimulation(stdobj@0x271b8488 status)) not on event "sim-env:post-simulation"
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = ADC
+\o 	Cell         = 15comp
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = ADC:15comp:1_tmpstate.143302914_MonteCarlo.1
+\o 	Results DB   = /root/Documents/vvgh/GPS/ADC/15comp/adexl/results/data/MonteCarlo.1.rdb
+\o 	Results Dir  = /root/simulation/ADC/15comp/adexl/results/data/MonteCarlo.1/1/ADC:15comp:1
+\o 	Results Loc  = /root/simulation/ADC/15comp/adexl/results/data
+\o 	Project Dir  = /root/simulation
+\o 	Setup DB loc = /root/Documents/vvgh/GPS/ADC/15comp/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 1) on testbench [ ADC:15comp:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /root/simulation/ADC/15comp/adexl/results/data/MonteCarlo.1/1/ADC:15comp:1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /root/simulation/ADC/15comp/adexl/results/data/MonteCarlo.1/1/ADC:15comp:1/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 1)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 20 15:52:31 2023
+\o ERROR (OSSHNL-109): The cellview 'ADC/15comp/schematic' has been modified since the last extraction. Validate
+\o that the schematic is correct and run Check and Save to correct this error.
+\o 
+\o End netlisting Mar 20 15:52:31 2023
+\o ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
+\o       ...unsuccessful.
+\e *Error* Error during netlisting of design for the point ID (1 1).
+\e ("error" 0 t nil ("*Error* "))
+\e 
+\e 
+\o 
+\o *Error*   Error ID  = 5012
+\o *Error*   Error Msg = Failed to create netlist.
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (1 1) on testbench [ ADC:15comp:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /root/simulation/ADC/15comp/adexl/results/data/MonteCarlo.1/1/ADC:15comp:1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /root/simulation/ADC/15comp/adexl/results/data/MonteCarlo.1/1/ADC:15comp:1/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (1 1)
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 20 15:52:31 2023
+\o ERROR (OSSHNL-109): The cellview 'ADC/15comp/schematic' has been modified since the last extraction. Validate
+\o that the schematic is correct and run Check and Save to correct this error.
+\o 
+\o End netlisting Mar 20 15:52:31 2023
+\o ERROR (OSSHNL-514): Netlist generation failed because of the errors reported above. The netlist might not have been generated at all, or the generated netlist could be corrupt. Fix the reported errors and regenerate the netlist.
+\o       ...unsuccessful.
+\e *Error* Error during netlisting of design for the point ID (1 1).
+\e ("error" 0 t nil ("*Error* "))
+\e 
+\e 
+\o 
+\o *Error*   Error ID  = 5012
+\o *Error*   Error Msg = Failed to create netlist.
+\o 
+\o 
+\o 
+\o 
+\w *WARNING* aaDeleteEventCB: cb lambda((_simID status) _asiMCPostSimulation(stdobj@0x2ccbe710 status)) not on event "sim-env:post-simulation"
+\o 
+\o *Info*    Received signal SIGTERM.
+\o 
+\o 

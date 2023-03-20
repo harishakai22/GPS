@@ -86,7 +86,7 @@
 					<output>(VT("/vin") - 0.6)
 						<evalType>point</evalType>
 					</output>
-					<output>((VT("/o1") + VT("/o2") + VT("/o3") + VT("/o4") + VT("/o5") + VT("/o6") + VT("/o7") + VT("/o8") + VT("/o9") + VT("/o10") + VT("/o11") + VT("/o12") + VT("/o13") + VT("/o14") + VT("/o15")) / (1.8 * 15))
+					<output>output of thermometer sum
 						<evalType>point</evalType>
 					</output>
 					<output>((VT("/o1") + VT("/o2") + VT("/o3") + VT("/o4") + VT("/o5") + VT("/o6") + VT("/o7") + VT("/o8") + VT("/o9") + VT("/o10") + VT("/o11") + VT("/o12") + VT("/o13") + VT("/o14") + VT("/o15")) / (1.8 * 16))
@@ -96,6 +96,9 @@
 						<evalType>point</evalType>
 					</output>
 					<output>(- (VT("/vsupply") * IT("/V0/PLUS")))
+						<evalType>point</evalType>
+					</output>
+					<output>/I0/NM2/D
 						<evalType>point</evalType>
 					</output>
 				</outputs>
@@ -235,7 +238,7 @@
 							<output>(VT("/vin") - 0.6)
 								<evalType>point</evalType>
 							</output>
-							<output>((VT("/o1") + VT("/o2") + VT("/o3") + VT("/o4") + VT("/o5") + VT("/o6") + VT("/o7") + VT("/o8") + VT("/o9") + VT("/o10") + VT("/o11") + VT("/o12") + VT("/o13") + VT("/o14") + VT("/o15")) / (1.8 * 15))
+							<output>output of thermometer sum
 								<evalType>point</evalType>
 							</output>
 							<output>((VT("/o1") + VT("/o2") + VT("/o3") + VT("/o4") + VT("/o5") + VT("/o6") + VT("/o7") + VT("/o8") + VT("/o9") + VT("/o10") + VT("/o11") + VT("/o12") + VT("/o13") + VT("/o14") + VT("/o15")) / (1.8 * 16))
@@ -245,6 +248,9 @@
 								<evalType>point</evalType>
 							</output>
 							<output>(- (VT("/vsupply") * IT("/V0/PLUS")))
+								<evalType>point</evalType>
+							</output>
+							<output>/I0/NM2/D
 								<evalType>point</evalType>
 							</output>
 						</outputs>
@@ -354,21 +360,21 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mar 15 17:04:02 2023</timestamp>
-			<uuid>{b054935a-4382-4c66-ab5e-46889a308adf}</uuid>
-			<resultsname>/root/Documents/GPS/ADC/15comp/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
+			<timestamp>Mar 17 11:09:42 2023</timestamp>
+			<uuid>{0dfa0684-02f4-4a8c-9aa3-88205e46d5c7}</uuid>
+			<resultsname>/root/Documents/vvgh/GPS/ADC/15comp/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
 				<simdatasavemode>All</simdatasavemode>
 			</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/islcadence1_root_170402170</localpsfdir>
+			<localpsfdir>/tmp/islcadence2_root_110942706</localpsfdir>
 			<psfdir>/root/simulation/ADC/15comp/maestro/results/maestro/ExplorerRun.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/ADC/15comp/maestro/results/maestro/ExplorerRun.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
-			<loggingdatabasedir>/root/Documents/GPS/ADC/15comp/maestro/results/maestro</loggingdatabasedir>
-			<runlog>/root/Documents/GPS/ADC/15comp/maestro/results/maestro/ExplorerRun.0.log</runlog>
+			<loggingdatabasedir>/root/Documents/vvgh/GPS/ADC/15comp/maestro/results/maestro</loggingdatabasedir>
+			<runlog>/root/Documents/vvgh/GPS/ADC/15comp/maestro/results/maestro/ExplorerRun.0.log</runlog>
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>

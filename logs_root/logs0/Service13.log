@@ -1,0 +1,220 @@
+\# Program start time:     UTC 2023.03.14 06:56:58.829
+\# Local time: IST (UTC+05:30) 2023.03.14 12:26:58.829
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 04/27/2021 19:30 (cpgsrv11) $
+\o Hierarchy:		/home/install/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.18  (64-bit addresses)
+\# Command line:	/home/install/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost islcadence2 -beanport 11300 -beanbinlog  -mpssession virtuoso26297 -mpshost islcadence2 -davinciService DaVinciService_26297_1678775807 -axlSession fnxSession7 -axlServiceIdFlag 13 -uuid e1a246e4-0dea-4333-b63a-c299900426ef -heartbeat /dev/shm/swift-heartbeat.uY9PXmILDZ -log /root/Documents/vvgh/GPS/logs_root/logs0/Service13.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D0997FD70FC06BC4D6BE483029968DD296ED3EC7AFC06867D66E38F1FFC06BC4D66E38F1FFC06BC4D02F395A6E6BFD85D00001E85 -interactive -offlineExprEval -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300
+\# Host name (type):	islcadence2 (x86_64)
+\# Operating system:	Linux 3.10.0-1160.el7.x86_64 #1 SMP Tue Aug 18 14:50:17 EDT 2020
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:6925 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			Red Hat, Inc.
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 11004000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        575 MB
+\# Available memory:	     16,121 MB
+\# System memory:	     23,700 MB
+\# Maximum memory size:	     23,316 MB
+\# Max mem available:	     16,311 MB
+\# Initial memory used:	        190 MB
+\#        process size:	      1,636 MB
+\# Thread usage limits (effective/default):	maxthreads 62583/62583 maxload 8.00/8.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		root
+\o Working Directory:	islcadence2:/root/Documents/vvgh/GPS
+\# Process Id:		8506
+\o 
+\o COPYRIGHT (C) 1992-2021  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2021  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\# Memory report: using         351 MB, process size 1,874 MB at UTC 2023.03.14 06:57:01.192
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso26297, host=islcadence2). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 8506 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [12:26:58.350145] Configured Lic search path (20.02-p002): 5280@cadence
+\w *WARNING* LIB ADC from File /root/Documents/vvgh/GPS/cds.lib Line 2 redefines
+\w LIB ADC from File /root/cds.lib
+\w Insert UNDEFINE ADC
+\w before DEFINE ADC
+\w     in /root/Documents/vvgh/GPS/cds.lib
+\w Or remove or comment out DEFINE ADC
+\w     in /root/cds.lib
+\w to suppress this warning message.
+\w *WARNING* LIB LNA from File /root/Documents/vvgh/GPS/cds.lib Line 3 redefines
+\w LIB LNA from File /root/cds.lib
+\w Insert UNDEFINE LNA
+\w before DEFINE LNA
+\w     in /root/Documents/vvgh/GPS/cds.lib
+\w Or remove or comment out DEFINE LNA
+\w     in /root/cds.lib
+\w to suppress this warning message.
+\p > 
+\a _treeSetOpcGUI(t)
+\# [12:27:01.265305] Periodic Lic check successful
+\# [12:27:01.265307] Feature usage summary:
+\r t
+\i _axlRunServices()
+\o Loading gpdk045/libInit.il ...
+\o 	Loading gpdk045/loadCxt.ile ... done!
+\o 	Loading context 'gpdk045' from library 'gpdk045' ... done!
+\o 	Loading context 'pdkUtils' from library 'gpdk045' ... done!
+\o 	Loading gpdk045/gpdk045_customFilter.il ... done!
+\o 	Loading gpdk045/libInitCustomExit.il ... 
+\o 	Loading Environment Settings ...
+\o 	Loading Model Management File ...
+\o Loading spectrei.cxt 
+\# Memory report: using         451 MB, process size 2,042 MB at UTC 2023.03.14 06:57:02.101
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading vdsil.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading UltraSim.cxt 
+\o Loading msgHandler.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 	Loading gpdk045/gpdk045_PDKRegistrations.il ... done!
+\o 
+\o   *************************************************************           
+\o   *              Cadence Design Systems, Inc.                 *           
+\o   *                                                           *           
+\o   *                    Generic 45nm PDK                       *           
+\o   *                        (gpdk045)                          *           
+\o   *                                                           *           
+\o   *************************************************************           
+\o 	
+\o 
+\o 	VERSION: 6.0 (09-September-2019)
+\o 
+\o done!
+\o Loaded gpdk045/libInit.il successfully!
+\o Loading gpdk090/libInit.il ...
+\o 	Loading context 'gpdk090' from library 'gpdk090' ... done!
+\o 	Loading gpdk090/display.drf ... done!
+\e 	Loading gpdk090/gpdk090_customFilter.il ... *Error* axlRegisterCustomDeviceFilter: too few arguments (2 expected, 0 given) - nil
+\o failed!
+\o 	Loading gpdk090/.simrc ... done!
+\o 	Loading gpdk090/libInitCustomExit.il ... 	Loading Environment Settings ...
+\w *WARNING* envSetVal: Can't set the value of variable 'extractVerifySubstrate',
+\w 	in tool[.partition] 'layout' - it has not been registered.
+\o 	Loading Model Management File ...
+\o 	Loading gpdk090/gpdk090_PDKRegistrations.il ... done!
+\o 
+\o   *************************************************************           
+\o   *              Cadence Design Systems, Inc.                 *           
+\o   *                                                           *           
+\o   *                    Generic 90nm PDK                       *           
+\o   *                        (gpdk090)                          *           
+\o   *                                                           *           
+\o   *************************************************************           
+\o 	
+\o 
+\o 	Version : 4.6
+\o 
+\o 	Build date: 10-FEB-2011
+\o 
+\o done!
+\o Failed to load gpdk090/libInit.il successfully!Loading gpdk180/libInit.il ...
+\o 	Loading context 'gpdk180' from library 'gpdk180' ... done!
+\o 	Loading gpdk180/.cdsenv ... done!
+\o 	Loading gpdk180/display.drf ... done!
+\o 	Loading gpdk180/libInitCustomExit.il ... 
+\o   *************************************************************           
+\o   *              Cadence Design Systems, Inc.                 *           
+\o   *                                                           *           
+\o   *                    Generic 180nm PDK                      *           
+\o   *                        (gpdk180)                          *           
+\o   *                                                           *           
+\o   *                       Version 3.2                         *           
+\o   *                                                           *           
+\o   *************************************************************           
+\o done!
+\o Loaded gpdk180/libInit.il successfully!
+\o Loading cds_ff_mpt/libInit.il ...
+\o 	Loading context 'cds_ff_mpt' from library 'cds_ff_mpt' ... done!
+\o 	Loading cds_ff_mpt/cds_ff_mpt_customFilter.il ... done!
+\o 	Loading cds_ff_mpt/libInitCustomExit.il ... 
+\o function envSetValIfDefault redefined
+\o 	Loading Environment Settings ...
+\o 	Loading Model Management File ...
+\o 	Loading cds_ff_mpt/libInitCktPro.il ... done!
+\o 	Initializing EAD
+\o 
+\o   *************************************************************           
+\o   *              Cadence Design Systems, Inc.                 *           
+\o   *                                                           *           
+\o   *             Generic Finfet Multi Pattern PDK              *           
+\o   *                     (cds_ff_mpt)                          *           
+\o   *                                                           *           
+\o   *************************************************************           
+\o 	
+\o 
+\o 	VERSION: 1.0 (12-May-2020) built using ICADVM181-ISR10
+\o 
+\o done!
+\o 	Loading cds_ff_mpt/cds_ff_mptFgrUtil.il ... 
+\e *Error* _iliGetSlotSpecs: not a class object or class name - vfoAdvGuardRing
+\o failed!
+\o 	Loading cds_ff_mpt/cds_ff_mptFgrRing.il ... 
+\w *WARNING* (defmethod): unknown class cds_ff_mptFgrGuardRing_ver_1 when defining vfoSfDraw method
+\w 
+\o done!
+\o Failed to load cds_ff_mpt/libInit.il successfully![2023-03-14 12:27:02.810 +0530] [process] - Netlist Service has successfully started. Waiting for incoming messages ... [Attributes] {"hostname": "islcadence2", "processid": 8506, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service13.log"}
+\# Available memory:         15,650 MB at UTC 2023.03.14 06:57:10.829
+\# Memory report: Maximum memory size now 16,129 MB at UTC 2023.03.14 06:57:10.829
+\# Thread usage report: 13 active threads, active load 1.40 at UTC 2023.03.14 06:57:10.829
+\o Loading simui.cxt 
+\# Lic Summary:
+\# [12:28:01.407473] Cdslmd servers:5280@cadence
+\# [12:28:01.407480] Feature usage summary:
+\# Memory report: on exit            483 MB, process size 2,074 MB at UTC 2023.03.14 06:58:01.931
+\# Memory report: peak usage         483 MB, process size 2,074 MB

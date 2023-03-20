@@ -1,0 +1,760 @@
+\# Program start time:     UTC 2023.03.14 10:27:31.190
+\# Local time: IST (UTC+05:30) 2023.03.14 15:57:31.190
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 04/27/2021 19:30 (cpgsrv11) $
+\o Hierarchy:		/home/install/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.18  (64-bit addresses)
+\# Command line:	/home/install/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost islcadence2 -beanport 11300 -beanbinlog  -mpssession virtuoso10791 -mpshost islcadence2 -davinciService DaVinciService_10791_1678777290 -axlSession fnxSession4 -axlServiceIdFlag 20 -uuid a0ce0a38-8546-4300-af8c-2c6d2e255f78 -heartbeat /dev/shm/swift-heartbeat.CfSWa4fU1M -log /root/Documents/vvgh/GPS/logs_root/logs0/Service20.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D0997FD70FC06BC4D6BE483029968DD296ED3EC7AFC06867D66E38F1FFC06BC4D66E38F1FFC06BC4D02F3C30EB017D85D00001E62 -interactive -offlineExprEval -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300
+\# Host name (type):	islcadence2 (x86_64)
+\# Operating system:	Linux 3.10.0-1160.el7.x86_64 #1 SMP Tue Aug 18 14:50:17 EDT 2020
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:3352 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			Red Hat, Inc.
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 11004000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        568 MB
+\# Available memory:	     16,230 MB
+\# System memory:	     23,700 MB
+\# Maximum memory size:	     23,322 MB
+\# Max mem available:	     16,421 MB
+\# Initial memory used:	        190 MB
+\#        process size:	      1,636 MB
+\# Thread usage limits (effective/default):	maxthreads 62583/62583 maxload 8.00/8.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		root
+\o Working Directory:	islcadence2:/root/Documents/vvgh/GPS
+\# Process Id:		17157
+\o 
+\o COPYRIGHT (C) 1992-2021  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2021  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\# Memory report: using         301 MB, process size 1,735 MB at UTC 2023.03.14 10:27:33.010
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso10791, host=islcadence2). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 17157 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [15:57:31.350129] Configured Lic search path (20.02-p002): 5280@cadence
+\w *WARNING* LIB ADC from File /root/Documents/vvgh/GPS/cds.lib Line 2 redefines
+\w LIB ADC from File /root/cds.lib
+\w Insert UNDEFINE ADC
+\w before DEFINE ADC
+\w     in /root/Documents/vvgh/GPS/cds.lib
+\w Or remove or comment out DEFINE ADC
+\w     in /root/cds.lib
+\w to suppress this warning message.
+\w *WARNING* LIB LNA from File /root/Documents/vvgh/GPS/cds.lib Line 3 redefines
+\w LIB LNA from File /root/cds.lib
+\w Insert UNDEFINE LNA
+\w before DEFINE LNA
+\w     in /root/Documents/vvgh/GPS/cds.lib
+\w Or remove or comment out DEFINE LNA
+\w     in /root/cds.lib
+\w to suppress this warning message.
+\p > 
+\a _treeSetOpcGUI(t)
+\# [15:57:33.319992] Periodic Lic check successful
+\# [15:57:33.319993] Feature usage summary:
+\r t
+\i _axlRunServices()
+\o Loading gpdk045/libInit.il ...
+\o 	Loading gpdk045/loadCxt.ile ... done!
+\o 	Loading context 'gpdk045' from library 'gpdk045' ... done!
+\o 	Loading context 'pdkUtils' from library 'gpdk045' ... done!
+\o 	Loading gpdk045/gpdk045_customFilter.il ... done!
+\o 	Loading gpdk045/libInitCustomExit.il ... 
+\o 	Loading Environment Settings ...
+\o 	Loading Model Management File ...
+\o Loading spectrei.cxt 
+\# Memory report: using         451 MB, process size 2,042 MB at UTC 2023.03.14 10:27:34.153
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading vdsil.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading UltraSim.cxt 
+\o Loading msgHandler.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 	Loading gpdk045/gpdk045_PDKRegistrations.il ... done!
+\o 
+\o   *************************************************************           
+\o   *              Cadence Design Systems, Inc.                 *           
+\o   *                                                           *           
+\o   *                    Generic 45nm PDK                       *           
+\o   *                        (gpdk045)                          *           
+\o   *                                                           *           
+\o   *************************************************************           
+\o 	
+\o 
+\o 	VERSION: 6.0 (09-September-2019)
+\o 
+\o done!
+\o Loaded gpdk045/libInit.il successfully!
+\o Loading gpdk090/libInit.il ...
+\o 	Loading context 'gpdk090' from library 'gpdk090' ... done!
+\o 	Loading gpdk090/display.drf ... done!
+\e 	Loading gpdk090/gpdk090_customFilter.il ... *Error* axlRegisterCustomDeviceFilter: too few arguments (2 expected, 0 given) - nil
+\o failed!
+\o 	Loading gpdk090/.simrc ... done!
+\o 	Loading gpdk090/libInitCustomExit.il ... 	Loading Environment Settings ...
+\w *WARNING* envSetVal: Can't set the value of variable 'extractVerifySubstrate',
+\w 	in tool[.partition] 'layout' - it has not been registered.
+\o 	Loading Model Management File ...
+\o 	Loading gpdk090/gpdk090_PDKRegistrations.il ... done!
+\o 
+\o   *************************************************************           
+\o   *              Cadence Design Systems, Inc.                 *           
+\o   *                                                           *           
+\o   *                    Generic 90nm PDK                       *           
+\o   *                        (gpdk090)                          *           
+\o   *                                                           *           
+\o   *************************************************************           
+\o 	
+\o 
+\o 	Version : 4.6
+\o 
+\o 	Build date: 10-FEB-2011
+\o 
+\o done!
+\o Failed to load gpdk090/libInit.il successfully!Loading gpdk180/libInit.il ...
+\o 	Loading context 'gpdk180' from library 'gpdk180' ... done!
+\o 	Loading gpdk180/.cdsenv ... done!
+\o 	Loading gpdk180/display.drf ... done!
+\o 	Loading gpdk180/libInitCustomExit.il ... 
+\o   *************************************************************           
+\o   *              Cadence Design Systems, Inc.                 *           
+\o   *                                                           *           
+\o   *                    Generic 180nm PDK                      *           
+\o   *                        (gpdk180)                          *           
+\o   *                                                           *           
+\o   *                       Version 3.2                         *           
+\o   *                                                           *           
+\o   *************************************************************           
+\o done!
+\o Loaded gpdk180/libInit.il successfully!
+\o Loading cds_ff_mpt/libInit.il ...
+\o 	Loading context 'cds_ff_mpt' from library 'cds_ff_mpt' ... done!
+\o 	Loading cds_ff_mpt/cds_ff_mpt_customFilter.il ... done!
+\o 	Loading cds_ff_mpt/libInitCustomExit.il ... 
+\o function envSetValIfDefault redefined
+\o 	Loading Environment Settings ...
+\o 	Loading Model Management File ...
+\o 	Loading cds_ff_mpt/libInitCktPro.il ... done!
+\o 	Initializing EAD
+\o 
+\o   *************************************************************           
+\o   *              Cadence Design Systems, Inc.                 *           
+\o   *                                                           *           
+\o   *             Generic Finfet Multi Pattern PDK              *           
+\o   *                     (cds_ff_mpt)                          *           
+\o   *                                                           *           
+\o   *************************************************************           
+\o 	
+\o 
+\o 	VERSION: 1.0 (12-May-2020) built using ICADVM181-ISR10
+\o 
+\o done!
+\o 	Loading cds_ff_mpt/cds_ff_mptFgrUtil.il ... 
+\e *Error* _iliGetSlotSpecs: not a class object or class name - vfoAdvGuardRing
+\o failed!
+\o 	Loading cds_ff_mpt/cds_ff_mptFgrRing.il ... 
+\w *WARNING* (defmethod): unknown class cds_ff_mptFgrGuardRing_ver_1 when defining vfoSfDraw method
+\w 
+\o done!
+\o Failed to load cds_ff_mpt/libInit.il successfully![2023-03-14 15:57:34.847 +0530] [process] - Netlist Service has successfully started. Waiting for incoming messages ... [Attributes] {"hostname": "islcadence2", "processid": 17157, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log"}
+\o [2023-03-14 15:57:34.851 +0530] [event] - NewPoint [Attributes] {"point": 0, "testname": "ADC_nmos_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log", "logFileSize": "8888"}
+\o [2023-03-14 15:57:34.852 +0530] [info] - Started preparing netlist [Attributes] {"point": 0, "testname": "ADC_nmos_1"}
+\o Loading simui.cxt 
+\o *Warning* AXL Context Manager : job 20 is already registered. 
+\o 
+\o Loading vqp.cxt 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = ADC
+\o 	Cell         = nmos
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = ExplorerRun.0
+\o 	Results DB   = /root/Documents/vvgh/GPS/ADC/nmos/maestro/results/maestro/ExplorerRun.0.rdb
+\o 	Results Dir  = /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/1/ADC_nmos_1
+\o 	Results Loc  = /root/simulation/ADC/nmos/maestro/results/maestro
+\o 	Project Dir  = /root/simulation
+\o 	Setup DB loc = /root/Documents/vvgh/GPS/ADC/nmos/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\w *WARNING* LIB ADC from File /root/Documents/vvgh/GPS/cds.lib Line 2 redefines
+\w LIB ADC from File /root/cds.lib
+\w Insert UNDEFINE ADC
+\w before DEFINE ADC
+\w     in /root/Documents/vvgh/GPS/cds.lib
+\w Or remove or comment out DEFINE ADC
+\w     in /root/cds.lib
+\w to suppress this warning message.
+\w *WARNING* LIB LNA from File /root/Documents/vvgh/GPS/cds.lib Line 3 redefines
+\w LIB LNA from File /root/cds.lib
+\w Insert UNDEFINE LNA
+\w before DEFINE LNA
+\w     in /root/Documents/vvgh/GPS/cds.lib
+\w Or remove or comment out DEFINE LNA
+\w     in /root/cds.lib
+\w to suppress this warning message.
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading elec.cxt 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 27
+\o Setting var width = "1u"
+\o Loading monte.cxt 
+\o Reusing AHDL Data dir
+\o 
+\o *Info*    Data Directory    =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/psf/ADC_nmos_1
+\o 
+\o generate netlist...
+\o Loading seCore.cxt 
+\o Initializing the control file using cp:
+\o     cp /home/install/IC618/tools.lnx86/dfII/etc/si/control.spectre /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/psf/ADC_nmos_1/netlist/control
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting Mar 14 15:57:36 2023
+\o Loading json.cxt 
+\o End netlisting Mar 14 15:57:36 2023
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:    4
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2023-03-14 15:57:36.610 +0530] [info] - Finished preparing netlist [Attributes] {"point": 0, "testname": "ADC_nmos_1"}
+\o [2023-03-14 15:57:37.615 +0530] [event] - NewPoint [Attributes] {"point": 1, "testname": "ADC_nmos_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log", "logFileSize": "10590"}
+\o [2023-03-14 15:57:37.615 +0530] [info] - Started netlisting [Attributes] {"point": 1, "testname": "ADC_nmos_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 27
+\o Setting var width = "1u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/1/ADC_nmos_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/1/ADC_nmos_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2023-03-14 15:57:38.258 +0530] [process] - Current memory used: 502.5742 MBytes, peak memory used: 502.5742 MBytes [Attributes] {"hostname": "islcadence2", "processid": 17157, "testname": "ADC_nmos_1", "point": 1, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log"}
+\o [2023-03-14 15:57:38.258 +0530] [info] - Finished netlisting [Attributes] {"point": 1, "testname": "ADC_nmos_1"}
+\o [2023-03-14 15:57:38.261 +0530] [event] - NewPoint [Attributes] {"point": 2, "testname": "ADC_nmos_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log", "logFileSize": "14543"}
+\o [2023-03-14 15:57:38.261 +0530] [info] - Started netlisting [Attributes] {"point": 2, "testname": "ADC_nmos_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var width = "2u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/2/ADC_nmos_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/2/ADC_nmos_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2023-03-14 15:57:38.633 +0530] [process] - Current memory used: 502.5898 MBytes, peak memory used: 502.5938 MBytes [Attributes] {"hostname": "islcadence2", "processid": 17157, "testname": "ADC_nmos_1", "point": 2, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log"}
+\o [2023-03-14 15:57:38.634 +0530] [info] - Finished netlisting [Attributes] {"point": 2, "testname": "ADC_nmos_1"}
+\o [2023-03-14 15:57:38.637 +0530] [event] - NewPoint [Attributes] {"point": 3, "testname": "ADC_nmos_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log", "logFileSize": "15935"}
+\o [2023-03-14 15:57:38.637 +0530] [info] - Started netlisting [Attributes] {"point": 3, "testname": "ADC_nmos_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var width = "3u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/3/ADC_nmos_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/3/ADC_nmos_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2023-03-14 15:57:39.084 +0530] [process] - Current memory used: 502.5898 MBytes, peak memory used: 502.5938 MBytes [Attributes] {"hostname": "islcadence2", "processid": 17157, "testname": "ADC_nmos_1", "point": 3, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log"}
+\o [2023-03-14 15:57:39.084 +0530] [info] - Finished netlisting [Attributes] {"point": 3, "testname": "ADC_nmos_1"}
+\o [2023-03-14 15:57:39.088 +0530] [event] - NewPoint [Attributes] {"point": 4, "testname": "ADC_nmos_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log", "logFileSize": "17327"}
+\o [2023-03-14 15:57:39.088 +0530] [info] - Started netlisting [Attributes] {"point": 4, "testname": "ADC_nmos_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var width = "4u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/4/ADC_nmos_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/4/ADC_nmos_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2023-03-14 15:57:39.493 +0530] [process] - Current memory used: 502.6602 MBytes, peak memory used: 502.6641 MBytes [Attributes] {"hostname": "islcadence2", "processid": 17157, "testname": "ADC_nmos_1", "point": 4, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log"}
+\o [2023-03-14 15:57:39.494 +0530] [info] - Finished netlisting [Attributes] {"point": 4, "testname": "ADC_nmos_1"}
+\o [2023-03-14 15:57:39.497 +0530] [event] - NewPoint [Attributes] {"point": 5, "testname": "ADC_nmos_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log", "logFileSize": "18719"}
+\o [2023-03-14 15:57:39.497 +0530] [info] - Started netlisting [Attributes] {"point": 5, "testname": "ADC_nmos_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var width = "5u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/5/ADC_nmos_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/5/ADC_nmos_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2023-03-14 15:57:39.954 +0530] [process] - Current memory used: 502.6641 MBytes, peak memory used: 502.6680 MBytes [Attributes] {"hostname": "islcadence2", "processid": 17157, "testname": "ADC_nmos_1", "point": 5, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log"}
+\o [2023-03-14 15:57:39.955 +0530] [info] - Finished netlisting [Attributes] {"point": 5, "testname": "ADC_nmos_1"}
+\o [2023-03-14 15:57:39.958 +0530] [event] - NewPoint [Attributes] {"point": 6, "testname": "ADC_nmos_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log", "logFileSize": "20111"}
+\o [2023-03-14 15:57:39.959 +0530] [info] - Started netlisting [Attributes] {"point": 6, "testname": "ADC_nmos_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var width = "6u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/6/ADC_nmos_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/6/ADC_nmos_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2023-03-14 15:57:40.460 +0530] [process] - Current memory used: 502.7539 MBytes, peak memory used: 502.7578 MBytes [Attributes] {"hostname": "islcadence2", "processid": 17157, "testname": "ADC_nmos_1", "point": 6, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log"}
+\o [2023-03-14 15:57:40.460 +0530] [info] - Finished netlisting [Attributes] {"point": 6, "testname": "ADC_nmos_1"}
+\o [2023-03-14 15:57:40.464 +0530] [event] - NewPoint [Attributes] {"point": 7, "testname": "ADC_nmos_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log", "logFileSize": "21503"}
+\o [2023-03-14 15:57:40.464 +0530] [info] - Started netlisting [Attributes] {"point": 7, "testname": "ADC_nmos_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var width = "7u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/7/ADC_nmos_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/7/ADC_nmos_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\# Available memory:         15,871 MB at UTC 2023.03.14 10:27:41.060
+\# Memory report: Maximum memory size now 16,374 MB at UTC 2023.03.14 10:27:41.060
+\# Thread usage report: 13 active threads, active load 1.40 at UTC 2023.03.14 10:27:41.061
+\o [2023-03-14 15:57:41.106 +0530] [process] - Current memory used: 503.0898 MBytes, peak memory used: 503.0938 MBytes [Attributes] {"hostname": "islcadence2", "processid": 17157, "testname": "ADC_nmos_1", "point": 7, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log"}
+\o [2023-03-14 15:57:41.107 +0530] [info] - Finished netlisting [Attributes] {"point": 7, "testname": "ADC_nmos_1"}
+\o [2023-03-14 15:57:41.110 +0530] [event] - NewPoint [Attributes] {"point": 8, "testname": "ADC_nmos_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log", "logFileSize": "23139"}
+\o [2023-03-14 15:57:41.110 +0530] [info] - Started netlisting [Attributes] {"point": 8, "testname": "ADC_nmos_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var width = "8u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/8/ADC_nmos_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/8/ADC_nmos_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2023-03-14 15:57:41.544 +0530] [process] - Current memory used: 503.4102 MBytes, peak memory used: 503.4141 MBytes [Attributes] {"hostname": "islcadence2", "processid": 17157, "testname": "ADC_nmos_1", "point": 8, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log"}
+\o [2023-03-14 15:57:41.544 +0530] [info] - Finished netlisting [Attributes] {"point": 8, "testname": "ADC_nmos_1"}
+\o [2023-03-14 15:57:41.547 +0530] [event] - NewPoint [Attributes] {"point": 9, "testname": "ADC_nmos_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log", "logFileSize": "24531"}
+\o [2023-03-14 15:57:41.548 +0530] [info] - Started netlisting [Attributes] {"point": 9, "testname": "ADC_nmos_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var width = "9u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/9/ADC_nmos_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/9/ADC_nmos_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2023-03-14 15:57:41.909 +0530] [process] - Current memory used: 503.7305 MBytes, peak memory used: 503.7344 MBytes [Attributes] {"hostname": "islcadence2", "processid": 17157, "testname": "ADC_nmos_1", "point": 9, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log"}
+\o [2023-03-14 15:57:41.910 +0530] [info] - Finished netlisting [Attributes] {"point": 9, "testname": "ADC_nmos_1"}
+\o [2023-03-14 15:57:41.913 +0530] [event] - NewPoint [Attributes] {"point": 10, "testname": "ADC_nmos_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log", "logFileSize": "25923"}
+\o [2023-03-14 15:57:41.913 +0530] [info] - Started netlisting [Attributes] {"point": 10, "testname": "ADC_nmos_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var width = "10u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/10/ADC_nmos_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/10/ADC_nmos_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2023-03-14 15:57:42.299 +0530] [process] - Current memory used: 505.8828 MBytes, peak memory used: 505.8867 MBytes [Attributes] {"hostname": "islcadence2", "processid": 17157, "testname": "ADC_nmos_1", "point": 10, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log"}
+\o [2023-03-14 15:57:42.300 +0530] [info] - Finished netlisting [Attributes] {"point": 10, "testname": "ADC_nmos_1"}
+\o [2023-03-14 15:57:42.303 +0530] [event] - NewPoint [Attributes] {"point": 11, "testname": "ADC_nmos_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log", "logFileSize": "27322"}
+\o [2023-03-14 15:57:42.303 +0530] [info] - Started netlisting [Attributes] {"point": 11, "testname": "ADC_nmos_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var width = "11u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/11/ADC_nmos_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/11/ADC_nmos_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2023-03-14 15:57:42.692 +0530] [process] - Current memory used: 505.9414 MBytes, peak memory used: 505.9453 MBytes [Attributes] {"hostname": "islcadence2", "processid": 17157, "testname": "ADC_nmos_1", "point": 11, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log"}
+\o [2023-03-14 15:57:42.693 +0530] [info] - Finished netlisting [Attributes] {"point": 11, "testname": "ADC_nmos_1"}
+\o [2023-03-14 15:57:42.695 +0530] [event] - NewPoint [Attributes] {"point": 12, "testname": "ADC_nmos_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log", "logFileSize": "28721"}
+\o [2023-03-14 15:57:42.696 +0530] [info] - Started netlisting [Attributes] {"point": 12, "testname": "ADC_nmos_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var width = "12u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/12/ADC_nmos_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/12/ADC_nmos_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2023-03-14 15:57:43.110 +0530] [process] - Current memory used: 505.9570 MBytes, peak memory used: 505.9609 MBytes [Attributes] {"hostname": "islcadence2", "processid": 17157, "testname": "ADC_nmos_1", "point": 12, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log"}
+\o [2023-03-14 15:57:43.111 +0530] [info] - Finished netlisting [Attributes] {"point": 12, "testname": "ADC_nmos_1"}
+\o [2023-03-14 15:57:43.114 +0530] [event] - NewPoint [Attributes] {"point": 13, "testname": "ADC_nmos_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log", "logFileSize": "30120"}
+\o [2023-03-14 15:57:43.114 +0530] [info] - Started netlisting [Attributes] {"point": 13, "testname": "ADC_nmos_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var width = "13u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/13/ADC_nmos_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/13/ADC_nmos_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2023-03-14 15:57:43.489 +0530] [process] - Current memory used: 505.9570 MBytes, peak memory used: 505.9609 MBytes [Attributes] {"hostname": "islcadence2", "processid": 17157, "testname": "ADC_nmos_1", "point": 13, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log"}
+\o [2023-03-14 15:57:43.489 +0530] [info] - Finished netlisting [Attributes] {"point": 13, "testname": "ADC_nmos_1"}
+\o [2023-03-14 15:57:43.493 +0530] [event] - NewPoint [Attributes] {"point": 14, "testname": "ADC_nmos_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log", "logFileSize": "31519"}
+\o [2023-03-14 15:57:43.493 +0530] [info] - Started netlisting [Attributes] {"point": 14, "testname": "ADC_nmos_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var width = "14u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/14/ADC_nmos_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/14/ADC_nmos_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2023-03-14 15:57:44.053 +0530] [process] - Current memory used: 505.9570 MBytes, peak memory used: 505.9609 MBytes [Attributes] {"hostname": "islcadence2", "processid": 17157, "testname": "ADC_nmos_1", "point": 14, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log"}
+\o [2023-03-14 15:57:44.053 +0530] [info] - Finished netlisting [Attributes] {"point": 14, "testname": "ADC_nmos_1"}
+\o [2023-03-14 15:57:44.056 +0530] [event] - NewPoint [Attributes] {"point": 15, "testname": "ADC_nmos_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log", "logFileSize": "32918"}
+\o [2023-03-14 15:57:44.056 +0530] [info] - Started netlisting [Attributes] {"point": 15, "testname": "ADC_nmos_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var width = "15u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/15/ADC_nmos_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/15/ADC_nmos_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2023-03-14 15:57:44.423 +0530] [process] - Current memory used: 505.9570 MBytes, peak memory used: 505.9609 MBytes [Attributes] {"hostname": "islcadence2", "processid": 17157, "testname": "ADC_nmos_1", "point": 15, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log"}
+\o [2023-03-14 15:57:44.424 +0530] [info] - Finished netlisting [Attributes] {"point": 15, "testname": "ADC_nmos_1"}
+\o [2023-03-14 15:57:44.427 +0530] [event] - NewPoint [Attributes] {"point": 16, "testname": "ADC_nmos_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log", "logFileSize": "34317"}
+\o [2023-03-14 15:57:44.427 +0530] [info] - Started netlisting [Attributes] {"point": 16, "testname": "ADC_nmos_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var width = "16u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/16/ADC_nmos_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/16/ADC_nmos_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2023-03-14 15:57:44.848 +0530] [process] - Current memory used: 505.9570 MBytes, peak memory used: 505.9609 MBytes [Attributes] {"hostname": "islcadence2", "processid": 17157, "testname": "ADC_nmos_1", "point": 16, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log"}
+\o [2023-03-14 15:57:44.848 +0530] [info] - Finished netlisting [Attributes] {"point": 16, "testname": "ADC_nmos_1"}
+\o [2023-03-14 15:57:44.851 +0530] [event] - NewPoint [Attributes] {"point": 17, "testname": "ADC_nmos_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log", "logFileSize": "35716"}
+\o [2023-03-14 15:57:44.851 +0530] [info] - Started netlisting [Attributes] {"point": 17, "testname": "ADC_nmos_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var width = "17u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/17/ADC_nmos_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/17/ADC_nmos_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2023-03-14 15:57:45.233 +0530] [process] - Current memory used: 505.9570 MBytes, peak memory used: 505.9609 MBytes [Attributes] {"hostname": "islcadence2", "processid": 17157, "testname": "ADC_nmos_1", "point": 17, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log"}
+\o [2023-03-14 15:57:45.234 +0530] [info] - Finished netlisting [Attributes] {"point": 17, "testname": "ADC_nmos_1"}
+\o [2023-03-14 15:57:45.237 +0530] [event] - NewPoint [Attributes] {"point": 18, "testname": "ADC_nmos_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log", "logFileSize": "37115"}
+\o [2023-03-14 15:57:45.237 +0530] [info] - Started netlisting [Attributes] {"point": 18, "testname": "ADC_nmos_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var width = "18u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/18/ADC_nmos_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/18/ADC_nmos_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2023-03-14 15:57:45.623 +0530] [process] - Current memory used: 505.9570 MBytes, peak memory used: 505.9609 MBytes [Attributes] {"hostname": "islcadence2", "processid": 17157, "testname": "ADC_nmos_1", "point": 18, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log"}
+\o [2023-03-14 15:57:45.624 +0530] [info] - Finished netlisting [Attributes] {"point": 18, "testname": "ADC_nmos_1"}
+\o [2023-03-14 15:57:45.627 +0530] [event] - NewPoint [Attributes] {"point": 19, "testname": "ADC_nmos_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log", "logFileSize": "38514"}
+\o [2023-03-14 15:57:45.627 +0530] [info] - Started netlisting [Attributes] {"point": 19, "testname": "ADC_nmos_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var width = "19u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/19/ADC_nmos_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/19/ADC_nmos_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2023-03-14 15:57:46.836 +0530] [process] - Current memory used: 505.9570 MBytes, peak memory used: 505.9609 MBytes [Attributes] {"hostname": "islcadence2", "processid": 17157, "testname": "ADC_nmos_1", "point": 19, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log"}
+\o [2023-03-14 15:57:46.836 +0530] [info] - Finished netlisting [Attributes] {"point": 19, "testname": "ADC_nmos_1"}
+\o [2023-03-14 15:57:46.839 +0530] [event] - NewPoint [Attributes] {"point": 20, "testname": "ADC_nmos_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log", "logFileSize": "39913"}
+\o [2023-03-14 15:57:46.839 +0530] [info] - Started netlisting [Attributes] {"point": 20, "testname": "ADC_nmos_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var width = "20u"
+\o 
+\o *Info*    Netlist Directory =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/20/ADC_nmos_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /root/simulation/ADC/nmos/maestro/results/maestro/ExplorerRun.0/20/ADC_nmos_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2023-03-14 15:57:47.264 +0530] [process] - Current memory used: 505.9570 MBytes, peak memory used: 505.9609 MBytes [Attributes] {"hostname": "islcadence2", "processid": 17157, "testname": "ADC_nmos_1", "point": 20, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Service20.log"}
+\o [2023-03-14 15:57:47.264 +0530] [info] - Finished netlisting [Attributes] {"point": 20, "testname": "ADC_nmos_1"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\# Lic Summary:
+\# [16:02:48.290243] Cdslmd servers:5280@cadence
+\# [16:02:48.290248] Feature usage summary:
+\# Memory report: on exit            506 MB, process size 2,113 MB at UTC 2023.03.14 10:32:48.814
+\# Memory report: peak usage         506 MB, process size 2,113 MB

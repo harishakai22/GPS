@@ -1,0 +1,250 @@
+\# Program start time:     UTC 2023.03.20 10:58:02.782
+\# Local time: IST (UTC+05:30) 2023.03.20 16:28:02.782
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 04/27/2021 19:30 (cpgsrv11) $
+\o Hierarchy:		/home/install/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.18  (64-bit addresses)
+\# Command line:	/home/install/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso20308 -mpshost islcadence2 -davinciService DaVinciService_20308_1679295714 -log /root/Documents/vvgh/GPS/logs_root/logs1/Job4.log -licenseLockFileName /root/Documents/vvgh/GPS/.tmp_root/.islcadence2_20308 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 4
+\# Host name (type):	islcadence2 (x86_64)
+\# Operating system:	Linux 3.10.0-1160.el7.x86_64 #1 SMP Tue Aug 18 14:50:17 EDT 2020
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:2325 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			Red Hat, Inc.
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 11004000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        559 MB
+\# Available memory:	     14,332 MB
+\# System memory:	     23,700 MB
+\# Maximum memory size:	     23,332 MB
+\# Max mem available:	     14,523 MB
+\# Initial memory used:	        190 MB
+\#        process size:	      1,636 MB
+\# Thread usage limits (effective/default):	maxthreads 62583/62583 maxload 8.00/8.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		root
+\o Working Directory:	islcadence2:/root/Documents/vvgh/GPS
+\# Process Id:		20120
+\o 
+\o COPYRIGHT (C) 1992-2021  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2021  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso20308, host=islcadence2). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 20120 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [16:28:02.350105] Configured Lic search path (20.02-p002): 5280@cadence
+\# Memory report: using         382 MB, process size 1,904 MB at UTC 2023.03.20 10:58:05.227
+\o *Info*    Client has finished starting ... 
+\o 
+\o Loading vdsil.cxt 
+\p > 
+\a _treeSetOpcGUI(t)
+\# [16:28:05.316888] Periodic Lic check successful
+\# [16:28:05.316889] Feature usage summary:
+\r t
+\o Loading vqp.cxt 
+\o Loading hdlPkg.cxt 
+\o Loading spectrei.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading msgHandler.cxt 
+\o Loading UltraSim.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o Loading simui.cxt 
+\o 	Library      = ADC
+\o 	Cell         = 15comp
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = ADC:15comp:1_tmpstate.143302914_MonteCarlo.6
+\o 	Results DB   = /root/Documents/vvgh/GPS/ADC/15comp/adexl/results/data/MonteCarlo.6.rdb
+\o 	Results Dir  = /root/simulation/ADC/15comp/adexl/results/data/MonteCarlo.6/1/ADC:15comp:1
+\o 	Results Loc  = /root/simulation/ADC/15comp/adexl/results/data
+\o 	Project Dir  = /root/simulation
+\o 	Setup DB loc = /root/Documents/vvgh/GPS/ADC/15comp/adexl
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\o Loading gpdk180/libInit.il ...
+\o 	Loading gpdk180/loadCxt.ile ... done!
+\o 	Loading context 'gpdk180' from library 'gpdk180' ... done!
+\o 	Loading context 'pdkUtils' from library 'gpdk180' ... done!
+\o 	Loading gpdk180/.cdsenv ... done!
+\o 	Loading gpdk180/display.drf ... done!
+\o 	Loading gpdk180/libInitCustomExit.il ... Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\# Memory report: using         482 MB, process size 2,072 MB at UTC 2023.03.20 10:58:06.141
+\o 
+\o   *************************************************************           
+\o   *              Cadence Design Systems, Inc.                 *           
+\o   *                                                           *           
+\o   *                    Generic 180nm PDK                      *           
+\o   *                        (gpdk180)                          *           
+\o   *                                                           *           
+\o   *                       Version 3.2                         *           
+\o   *                                                           *           
+\o   *************************************************************           
+\o done!
+\o Loaded gpdk180/libInit.il successfully!
+\o WARNING (ADE-7017): The Spectre run mode needs to be 'batch' when EM/IR analysis is enabled. Automatically setting the run mode to 'batch'.
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading monte.cxt 
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Run start for Point ID (6 1) on testbench [ ADC:15comp:1 ].
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 27
+\o 
+\o *Info*    Netlist Directory =
+\o           /root/simulation/ADC/15comp/adexl/results/data/MonteCarlo.6/1/ADC:15comp:1/groupRunDataDir/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /root/simulation/ADC/15comp/adexl/results/data/MonteCarlo.6/1/ADC:15comp:1/groupRunDataDir
+\o 
+\o 
+\o *Info*    Creating Netlist for Point ID (6 1)
+\o 
+\w *WARNING* (CMGR-6145): Cannot refresh 'ci:0x0' because it is not a valid constraint cache. Rerun the 'ciRefreshCellView' SKILL function with a valid constraint cache.
+\o generate netlist...
+\o Loading seCore.cxt 
+\o Begin Incremental Netlisting Mar 20 16:28:06 2023
+\o End netlisting Mar 20 16:28:06 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o 
+\o *Info*    Running simulation on testbench [ ADC:15comp:1 ] for Point
+\o           ID (6 1).
+\o 
+\o *Info*    Spectre controlMode is set "batch" due to monte carlo run.
+\o 
+\o Delete psf data in /root/simulation/ADC/15comp/adexl/results/data/MonteCarlo.6/1/ADC:15comp:1/groupRunDataDir/psf.
+\o generate netlist...
+\o Begin Incremental Netlisting Mar 20 16:28:07 2023
+\o End netlisting Mar 20 16:28:07 2023
+\o 
+\o 	The netlist is up to date.
+\o 	Time taken to compare the design with netlist:   0.0s
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o start simulator if needed...
+\o       ...successful.
+\o simulate...
+\o To view the simulator output, right-click on the test name, result 
+\o name, or any value in the "Results" tab of the Outputs section and 
+\o choose "Output Log" menu option.
+\o Loading paraplot.cxt 
+\# Available memory:         13,967 MB at UTC 2023.03.20 10:58:13.018
+\# Memory report: Maximum memory size now 14,478 MB at UTC 2023.03.20 10:58:13.019
+\# Thread usage report: 13 active threads, active load 1.40 at UTC 2023.03.20 10:58:13.019
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (6 1) on testbench [ ADC:15comp:1
+\o           ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (6 2) on testbench [ ADC:15comp:1
+\o           ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (6 3) on testbench [ ADC:15comp:1
+\o           ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o INFO (ADE-3071): Simulation completed successfully.
+\o reading simulation data...
+\o       ...successful.
+\o *Info*    Client has finished evaluating ... 
+\o 
+\o 
+\o *Info*    Run complete for Point ID (6 4) on testbench [ ADC:15comp:1
+\o           ].
+\o 
+\o 
+\o 
+\o 
+\o 
+\o *Info*    Monte Carlo Simulation completed successfully...
