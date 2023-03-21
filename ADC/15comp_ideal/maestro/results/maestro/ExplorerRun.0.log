@@ -1,0 +1,14 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Mar 15 17:04:02 2023 
+Best design point: 1
+Design specs: 
+	ADC_15comp_1	corner	Nominal - 
+	(-1 * average((IT("/V0/PLUS") * VT("/vsupply"))))		698.1n
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Wed Mar 15 17:05:48 2023 

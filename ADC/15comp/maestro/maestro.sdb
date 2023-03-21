@@ -71,18 +71,6 @@
 					<output>((VT("/o1") + VT("/o2") + VT("/o3") + VT("/o4") + VT("/o5") + VT("/o6") + VT("/o7") + VT("/o8") + VT("/o9") + VT("/o10") + VT("/o11") + VT("/o12") + VT("/o13") + VT("/o14") + VT("/o15")) / 22.5)
 						<evalType>point</evalType>
 					</output>
-					<output>/I42/P
-						<evalType>point</evalType>
-					</output>
-					<output>/I42/Q
-						<evalType>point</evalType>
-					</output>
-					<output>/I42/X
-						<evalType>point</evalType>
-					</output>
-					<output>/I42/Y
-						<evalType>point</evalType>
-					</output>
 					<output>(VT("/vin") - 0.6)
 						<evalType>point</evalType>
 					</output>
@@ -102,6 +90,7 @@
 						<evalType>point</evalType>
 					</output>
 				</outputs>
+				<vars></vars>
 			</test>
 		</tests>
 		<currentmode>Single Run, Sweeps and Corners</currentmode>
@@ -149,6 +138,8 @@
 			<copyreferenceresults>1</copyreferenceresults>
 		</incrementalsimsetup>
 		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
+		<allparametersdisabled>1</allparametersdisabled>
+		<allcornersenabled>0</allcornersenabled>
 	</active>
 	<history>History
 		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="finished">ExplorerRun.0
@@ -223,18 +214,6 @@
 							<output>((VT("/o1") + VT("/o2") + VT("/o3") + VT("/o4") + VT("/o5") + VT("/o6") + VT("/o7") + VT("/o8") + VT("/o9") + VT("/o10") + VT("/o11") + VT("/o12") + VT("/o13") + VT("/o14") + VT("/o15")) / 22.5)
 								<evalType>point</evalType>
 							</output>
-							<output>/I42/P
-								<evalType>point</evalType>
-							</output>
-							<output>/I42/Q
-								<evalType>point</evalType>
-							</output>
-							<output>/I42/X
-								<evalType>point</evalType>
-							</output>
-							<output>/I42/Y
-								<evalType>point</evalType>
-							</output>
 							<output>(VT("/vin") - 0.6)
 								<evalType>point</evalType>
 							</output>
@@ -254,6 +233,7 @@
 								<evalType>point</evalType>
 							</output>
 						</outputs>
+						<vars></vars>
 					</test>
 				</tests>
 				<currentmode>Single Run, Sweeps and Corners</currentmode>
@@ -352,6 +332,8 @@
 					<copyreferenceresults>1</copyreferenceresults>
 				</incrementalsimsetup>
 				<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
+				<allparametersdisabled>1</allparametersdisabled>
+				<allcornersenabled>0</allcornersenabled>
 				<runnabletests>
 					<test>ADC_15comp_1</test>
 				</runnabletests>
@@ -360,8 +342,8 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Mar 17 11:09:42 2023</timestamp>
-			<uuid>{0dfa0684-02f4-4a8c-9aa3-88205e46d5c7}</uuid>
+			<timestamp>Mar 21 15:52:33 2023</timestamp>
+			<uuid>{5e7cb793-f751-48a0-8f57-34cceb68ddaf}</uuid>
 			<resultsname>/root/Documents/vvgh/GPS/ADC/15comp/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -369,7 +351,7 @@
 			</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/islcadence2_root_110942706</localpsfdir>
+			<localpsfdir>/tmp/islcadence1_root_155233268</localpsfdir>
 			<psfdir>/root/simulation/ADC/15comp/maestro/results/maestro/ExplorerRun.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/ADC/15comp/maestro/results/maestro/ExplorerRun.0</simdir>
 			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
@@ -378,6 +360,7 @@
 			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.log</runlogfile>
 			<schematicpoint></schematicpoint>
 			<test>all</test>
+			<locked>0</locked>
 		</historyentry>
 	</history>
 </setupdb>

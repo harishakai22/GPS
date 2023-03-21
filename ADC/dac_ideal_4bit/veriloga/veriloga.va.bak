@@ -1,0 +1,9 @@
+// VerilogA for ADC, dac_ideal_4bit, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module dac_ideal_4bit;
+
+
+endmodule

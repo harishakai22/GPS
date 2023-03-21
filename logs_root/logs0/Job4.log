@@ -1,65 +1,65 @@
 [Spectre Monitor: 4]
-[2023-03-15 16:09:44.043 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Spectre Monitor has successfully started up. Trying to set up communication channels to other components ... : {"hostname": "islcadence1", "processid": 18019, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log"}
-[2023-03-15 16:09:44.075 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Communication channels have been successfully set up. Start processing events ... : {"hostname": "islcadence1", "processid": 18019, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log"}
-[2023-03-15 16:09:44.156 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Started History : {"hostname": "islcadence1", "processid": 18019, "history": "ExplorerRun.0", "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log"}
-[2023-03-15 16:09:44.156 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - HostInfo:
+[2023-03-21 14:06:40.865 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Spectre Monitor has successfully started up. Trying to set up communication channels to other components ... : {"hostname": "islcadence1", "processid": 7149, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Job4.log"}
+[2023-03-21 14:06:40.865 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Started History : {"hostname": "islcadence1", "processid": 7149, "history": "ExplorerRun.0", "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Job4.log"}
+[2023-03-21 14:06:40.899 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Communication channels have been successfully set up. Start processing events ... : {"hostname": "islcadence1", "processid": 7149, "history": "ExplorerRun.0", "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Job4.log"}
+[2023-03-21 14:06:40.979 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - HostInfo:
 Host name (type):	islcadence1 (x86_64)
-Operating system:	Linux 3.10.0-1160.el7.x86_64 #1 SMP Tue Aug 18 14:50:17 EDT 2020 : {"hostname": "islcadence1", "processid": 18019, "history": "ExplorerRun.0", "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log", "nodename": "islcadence1", "domainname": "(none)", "machine": "x86_64", "sysname": "Linux", "release": "3.10.0-1160.el7.x86_64", "version": "#1 SMP Tue Aug 18 14:50:17 EDT 2020"}
-[2023-03-15 16:09:44.157 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - UsageInfo:
-pid=18019
-totalPhysicalMemory=15.303967GB,Used=6.919773GB,totalVirtualMemory=22.928963GB,Used=6.919773GB
-Cpu: Cores=8, Load average:0.290000,0.270000,0.260000 : {"hostname": "islcadence1", "processid": 18019, "history": "ExplorerRun.0", "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log", "pid": "18019", "totalPhysicalMemory": "15.303967", "physicalMemoryUsed": "6.919773", "totalVirtualMemory": "22.928963", "virtualMemoryUsed": "6.919773", "cpuCores": "8", "processes": "1036", "loadAverage1": "0.290000", "loadAverage5": "0.270000", "loadAverage15": "0.260000", "loadAverage1Percent": "0.036250"}
-[2023-03-15 16:09:44.160 +0530] [EVENT] [cadence.virtuoso.ade.spectreMonitor] - NewPoint : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal", "event": "NewPoint", "EventSource": "Spectre Monitor", "HistoryName": "ExplorerRun.0", "logFile": "/root/Documents/GPS/logs_root/logs0/Job4.log", "logFileSize": "2060"}
-[2023-03-15 16:09:44.160 +0530] [EVENT] [cadence.virtuoso.ade.spectreMonitor] - NewPoint : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal", "event": "NewPoint", "EventSource": "spectre", "HistoryName": "ExplorerRun.0", "logFile": "/root/simulation/ADC/15comp/maestro/results/maestro/ExplorerRun.0/1/ADC_15comp_1/psf/spectre.out", "logFileSize": "-1"}
-[2023-03-15 16:09:44.163 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Launched simulator : {"hostname": "islcadence1", "processid": 18019, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log", "simid": "1"}
-[2023-03-15 16:09:44.164 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Launched evaluator : {"hostname": "islcadence1", "processid": 18019, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log"}
-[2023-03-15 16:09:44.756 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 72.3 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 16:09:44.756 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 80.7 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 16:09:44.756 +0530] [WARN] [cadence.virtuoso.ade.spectreMonitor] -     WARNING (SPECTRE-17101): The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 16:09:44.757 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 82.4 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 16:09:45.258 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during topology check.
+Operating system:	Linux 3.10.0-1160.el7.x86_64 #1 SMP Tue Aug 18 14:50:17 EDT 2020 : {"hostname": "islcadence1", "processid": 7149, "history": "ExplorerRun.0", "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Job4.log", "nodename": "islcadence1", "domainname": "(none)", "machine": "x86_64", "sysname": "Linux", "release": "3.10.0-1160.el7.x86_64", "version": "#1 SMP Tue Aug 18 14:50:17 EDT 2020"}
+[2023-03-21 14:06:40.980 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - UsageInfo:
+pid=7149
+totalPhysicalMemory=15.303967GB,Used=6.732655GB,totalVirtualMemory=22.928963GB,Used=6.732655GB
+Cpu: Cores=8, Load average:0.290000,0.150000,0.140000 : {"hostname": "islcadence1", "processid": 7149, "history": "ExplorerRun.0", "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Job4.log", "pid": "7149", "totalPhysicalMemory": "15.303967", "physicalMemoryUsed": "6.732655", "totalVirtualMemory": "22.928963", "virtualMemoryUsed": "6.732655", "cpuCores": "8", "processes": "1009", "loadAverage1": "0.290000", "loadAverage5": "0.150000", "loadAverage15": "0.140000", "loadAverage1Percent": "0.036250"}
+[2023-03-21 14:06:40.983 +0530] [EVENT] [cadence.virtuoso.ade.spectreMonitor] - NewPoint : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal", "event": "NewPoint", "EventSource": "Spectre Monitor", "HistoryName": "ExplorerRun.0", "logFile": "/root/Documents/vvgh/GPS/logs_root/logs0/Job4.log", "logFileSize": "2106"}
+[2023-03-21 14:06:40.984 +0530] [EVENT] [cadence.virtuoso.ade.spectreMonitor] - NewPoint : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal", "event": "NewPoint", "EventSource": "spectre", "HistoryName": "ExplorerRun.0", "logFile": "/root/simulation/ADC/15comp/maestro/results/maestro/ExplorerRun.0/1/ADC_15comp_1/psf/spectre.out", "logFileSize": "-1"}
+[2023-03-21 14:06:40.986 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Launched simulator : {"hostname": "islcadence1", "processid": 7149, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Job4.log", "simid": "1"}
+[2023-03-21 14:06:40.988 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Launched evaluator : {"hostname": "islcadence1", "processid": 7149, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Job4.log"}
+[2023-03-21 14:06:42.082 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 70.9 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-21 14:06:42.082 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 79.4 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-21 14:06:42.082 +0530] [WARN] [cadence.virtuoso.ade.spectreMonitor] -     WARNING (SPECTRE-17101): The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-21 14:06:42.082 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 81.1 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-21 14:06:42.083 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during topology check.
     Only one connection to the following 4 nodes:
         d0
         d1
         d2
         d3 : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 16:09:45.258 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during initial setup.
+[2023-03-21 14:06:42.083 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during initial setup.
     Multithreading is disabled due to the size of the design being too small. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 16:09:45.258 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] -               nodes 197 : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 16:09:45.259 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during initial setup.
+[2023-03-21 14:06:42.083 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] -               nodes 200 : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-21 14:06:42.083 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during initial setup.
     APS enabled. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 16:09:45.259 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 84 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 16:09:45.259 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during IC analysis, during transient analysis `tran'.
+[2023-03-21 14:06:42.083 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 82.6 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-21 14:06:42.083 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during IC analysis, during transient analysis `tran'.
     GminDC = 1 pS is large enough to noticeably affect the DC solution.
-        dV(I0.net8) = 2.35848 mV
+        dV(vin) = -13.0377 mV
         Use the `gmin_check' option to eliminate or expand this report. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 16:09:45.259 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during transient analysis `tran'.
+[2023-03-21 14:06:42.084 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during transient analysis `tran'.
     Multithreading is disabled due to the size of the design being too small. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 16:09:45.259 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre at time = 130 ns during transient analysis `tran'.
-    Found trapezoidal ringing on node I0.X. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 16:09:45.259 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre at time = 166.152 ns during transient analysis `tran'.
-    Found trapezoidal ringing on node I0.net8. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 16:09:45.259 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre at time = 168.076 ns during transient analysis `tran'.
-    Found trapezoidal ringing on node I0.net8. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 16:09:45.259 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre at time = 170 ns during transient analysis `tran'.
-    Found trapezoidal ringing on node I0.net8. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 16:09:45.760 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre at time = 230 ns during transient analysis `tran'.
+[2023-03-21 14:06:42.584 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre at time = 210.95 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node I0.P. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-21 14:06:42.585 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre at time = 212.5 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node I0.P. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-21 14:06:42.585 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre at time = 260.219 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node I0.P. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-21 14:06:42.585 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre at time = 262.5 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node I0.P. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-21 14:06:42.585 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre at time = 312.5 ns during transient analysis `tran'.
     Found trapezoidal ringing on node I0.Q.
         Further occurrences of this notice will be suppressed. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 16:09:53.776 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during transient analysis `tran'.
+[2023-03-21 14:06:51.102 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during transient analysis `tran'.
     Trapezoidal ringing is detected during tran analysis.
         Please use method=trap for better results and performance. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 16:09:54.276 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Finished simulating for one point : {"hostname": "islcadence1", "processid": 18019, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log", "simid": "1"}
-[2023-03-15 16:09:54.277 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Total time required for tran analysis `tran': CPU = 8.99593 s, elapsed = 9.01605 s. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 16:09:54.277 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 198 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 16:09:54.277 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre.
-    172 notices suppressed. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 16:09:54.278 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Time used: CPU = 9.41 s, elapsed = 9.65 s, util. = 97.4%. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 16:09:54.278 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Time spent in licensing: elapsed = 75.8 ms. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 16:09:54.278 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak memory used = 199 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 16:09:54.278 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Simulation started at: 4:09:44 PM, Wed Mar 15, 2023, ended at: 4:09:54 PM, Wed Mar 15, 2023, with elapsed time (wall clock): 9.65 s. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 16:09:54.279 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - spectre completes with 0 errors, 1 warning, and 13 notices. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 16:09:54.279 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Finished Simulation : {"hostname": "islcadence1", "processid": 18019, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log", "simid": "1"}
-[2023-03-15 16:09:55.283 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Point Finished : {"hostname": "islcadence1", "processid": 18019, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log"}
-[2023-03-15 16:14:55.796 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Current memory used: 23.6055 MBytes, peak memory used: 23.6055 MBytes : {"hostname": "islcadence1", "processid": 18019, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log"}
-[2023-03-15 16:14:55.797 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Spectre Monitor process exit. : {"hostname": "islcadence1", "processid": 18019, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job4.log"}
+[2023-03-21 14:06:51.602 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Finished simulating for one point : {"hostname": "islcadence1", "processid": 7149, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Job4.log", "simid": "1"}
+[2023-03-21 14:06:51.603 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Total time required for tran analysis `tran': CPU = 9.30999 s, elapsed = 9.32944 s. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-21 14:06:51.603 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 199 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-21 14:06:51.603 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre.
+    205 notices suppressed. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-21 14:06:51.603 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Time used: CPU = 9.64 s, elapsed = 10.1 s, util. = 95.7%. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-21 14:06:51.604 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Time spent in licensing: elapsed = 274 ms. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-21 14:06:51.604 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak memory used = 200 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-21 14:06:51.604 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Simulation started at: 2:06:41 PM, Tue Mar 21, 2023, ended at: 2:06:51 PM, Tue Mar 21, 2023, with elapsed time (wall clock): 10.1 s. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-21 14:06:51.604 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - spectre completes with 0 errors, 1 warning, and 13 notices. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
+[2023-03-21 14:06:51.604 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Finished Simulation : {"hostname": "islcadence1", "processid": 7149, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Job4.log", "simid": "1"}
+[2023-03-21 14:06:53.109 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Point Finished : {"hostname": "islcadence1", "processid": 7149, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Job4.log"}
+[2023-03-21 14:11:53.553 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Current memory used: 23.6055 MBytes, peak memory used: 25.2305 MBytes : {"hostname": "islcadence1", "processid": 7149, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Job4.log"}
+[2023-03-21 14:11:53.553 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Spectre Monitor process exit. : {"hostname": "islcadence1", "processid": 7149, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/vvgh/GPS/logs_root/logs0/Job4.log"}

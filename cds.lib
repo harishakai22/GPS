@@ -1,4 +1,8 @@
+# File Created by root at Tue Mar 21 14:22:19 2023
+# assisted by CdsLibEditor
 SOFTINCLUDE /home/install/IC618/share/cdssetup/cds.lib
 DEFINE ADC /root/Documents/vvgh/GPS/ADC
 DEFINE LNA /root/Documents/vvgh/GPS/LNA
 DEFINE Mixer /root/Documents/vvgh/GPS/Mixer
+DEFINE UMC_18_CMOS /root/UMC_18_CMOS
+DEFINE umc_test /root/umc_test

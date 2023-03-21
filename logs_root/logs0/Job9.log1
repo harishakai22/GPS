@@ -1,44 +1,94 @@
-[Spectre Monitor: 9]
-[2023-03-15 11:43:33.023 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Spectre Monitor has successfully started up. Trying to set up communication channels to other components ... : {"hostname": "islcadence1", "processid": 24625, "logfile": "/root/Documents/GPS/logs_root/logs0/Job9.log1"}
-[2023-03-15 11:43:33.024 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Started History : {"hostname": "islcadence1", "processid": 24625, "history": "ExplorerRun.0", "logfile": "/root/Documents/GPS/logs_root/logs0/Job9.log1"}
-[2023-03-15 11:43:33.057 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Communication channels have been successfully set up. Start processing events ... : {"hostname": "islcadence1", "processid": 24625, "history": "ExplorerRun.0", "logfile": "/root/Documents/GPS/logs_root/logs0/Job9.log1"}
-[2023-03-15 11:43:33.138 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - HostInfo:
-Host name (type):	islcadence1 (x86_64)
-Operating system:	Linux 3.10.0-1160.el7.x86_64 #1 SMP Tue Aug 18 14:50:17 EDT 2020 : {"hostname": "islcadence1", "processid": 24625, "history": "ExplorerRun.0", "logfile": "/root/Documents/GPS/logs_root/logs0/Job9.log1", "nodename": "islcadence1", "domainname": "(none)", "machine": "x86_64", "sysname": "Linux", "release": "3.10.0-1160.el7.x86_64", "version": "#1 SMP Tue Aug 18 14:50:17 EDT 2020"}
-[2023-03-15 11:43:33.138 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - UsageInfo:
-pid=24625
-totalPhysicalMemory=15.303967GB,Used=5.953899GB,totalVirtualMemory=22.928963GB,Used=5.953899GB
-Cpu: Cores=8, Load average:0.180000,0.140000,0.140000 : {"hostname": "islcadence1", "processid": 24625, "history": "ExplorerRun.0", "logfile": "/root/Documents/GPS/logs_root/logs0/Job9.log1", "pid": "24625", "totalPhysicalMemory": "15.303967", "physicalMemoryUsed": "5.953899", "totalVirtualMemory": "22.928963", "virtualMemoryUsed": "5.953899", "cpuCores": "8", "processes": "927", "loadAverage1": "0.180000", "loadAverage5": "0.140000", "loadAverage15": "0.140000", "loadAverage1Percent": "0.022500"}
-[2023-03-15 11:43:33.141 +0530] [EVENT] [cadence.virtuoso.ade.spectreMonitor] - NewPoint : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal", "event": "NewPoint", "EventSource": "Spectre Monitor", "HistoryName": "ExplorerRun.0", "logFile": "/root/Documents/GPS/logs_root/logs0/Job9.log1", "logFileSize": "2092"}
-[2023-03-15 11:43:33.142 +0530] [EVENT] [cadence.virtuoso.ade.spectreMonitor] - NewPoint : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal", "event": "NewPoint", "EventSource": "spectre", "HistoryName": "ExplorerRun.0", "logFile": "/root/simulation/ADC/15comp/maestro/results/maestro/ExplorerRun.0/1/ADC_15comp_1/psf/spectre.out", "logFileSize": "-1"}
-[2023-03-15 11:43:33.144 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Launched simulator : {"hostname": "islcadence1", "processid": 24625, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job9.log1", "simid": "1"}
-[2023-03-15 11:43:33.145 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Launched evaluator : {"hostname": "islcadence1", "processid": 24625, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job9.log1"}
-[2023-03-15 11:43:33.728 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 71.3 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 11:43:33.728 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 79.6 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 11:43:33.728 +0530] [WARN] [cadence.virtuoso.ade.spectreMonitor] -     WARNING (SPECTRE-17101): The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 11:43:33.729 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 81.2 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 11:43:33.729 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during initial setup.
-    Multithreading is disabled due to the size of the design being too small. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 11:43:33.729 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] -               nodes 165 : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 11:43:33.729 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during initial setup.
-    1 vsources are shorted because their absolute value is less than or equal to 'vabsshort'.
-    APS enabled. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 11:43:34.230 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 82.7 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 11:43:34.231 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during IC analysis, during transient analysis `tran'.
-    GminDC = 1 pS is large enough to noticeably affect the DC solution.
-        dV(I0.net8) = 6.44672 mV
-        Use the `gmin_check' option to eliminate or expand this report. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 11:43:34.231 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Notice from spectre during transient analysis `tran'.
-    Multithreading is disabled due to the size of the design being too small. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 11:43:36.735 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Finished simulating for one point : {"hostname": "islcadence1", "processid": 24625, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job9.log1", "simid": "1"}
-[2023-03-15 11:43:36.735 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Total time required for tran analysis `tran': CPU = 2.41851 s, elapsed = 2.43801 s. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 11:43:36.736 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak resident memory used = 129 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 11:43:36.736 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Time used: CPU = 2.6 s, elapsed = 3.15 s, util. = 82.6%. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 11:43:36.736 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Time spent in licensing: elapsed = 172 ms, percentage of total = 5.46%. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 11:43:36.736 +0530] [INFO] [cadence.virtuoso.ade.spectreMonitor] - Peak memory used = 130 Mbytes. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 11:43:36.737 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Simulation started at: 11:43:33 AM, Wed Mar 15, 2023, ended at: 11:43:36 AM, Wed Mar 15, 2023, with elapsed time (wall clock): 3.15 s. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 11:43:36.737 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - spectre completes with 0 errors, 1 warning, and 6 notices. : {"history": "ExplorerRun.0", "point": 1, "testname": "ADC_15comp_1", "cornername": "Nominal"}
-[2023-03-15 11:43:36.737 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Finished Simulation : {"hostname": "islcadence1", "processid": 24625, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job9.log1", "simid": "1"}
-[2023-03-15 11:43:38.241 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Point Finished : {"hostname": "islcadence1", "processid": 24625, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job9.log1"}
-[2023-03-15 11:48:38.690 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Current memory used: 23.5586 MBytes, peak memory used: 23.5586 MBytes : {"hostname": "islcadence1", "processid": 24625, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job9.log1"}
-[2023-03-15 11:48:38.690 +0530] [PROCESS] [cadence.virtuoso.ade.spectreMonitor] - Spectre Monitor process exit. : {"hostname": "islcadence1", "processid": 24625, "history": "ExplorerRun.0", "testname": "ADC_15comp_1", "cornername": "Nominal", "point": 1, "logfile": "/root/Documents/GPS/logs_root/logs0/Job9.log1"}
+\# Program start time:     UTC 2023.03.21 08:58:08.999
+\# Local time: IST (UTC+05:30) 2023.03.21 14:28:08.999
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 04/27/2021 19:30 (cpgsrv11) $
+\o Hierarchy:		/home/install/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.18  (64-bit addresses)
+\# Command line:	/home/install/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso24056 -mpshost islcadence1 -davinciService DaVinciService_24056_1679380888 -log /root/Documents/vvgh/GPS/logs_root/logs0/Job9.log1 -licenseLockFileName /root/Documents/vvgh/GPS/.tmp_root/.islcadence1_24056 -interactiveA -interactiveE -interactiveRTT -nostdin -nographE -axlChildIdFlag 9
+\# Host name (type):	islcadence1 (x86_64)
+\# Operating system:	Linux 3.10.0-1160.el7.x86_64 #1 SMP Tue Aug 18 14:50:17 EDT 2020
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:4959 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			Red Hat, Inc.
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 11004000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        582 MB
+\# Available memory:	     16,154 MB
+\# System memory:	     23,479 MB
+\# Maximum memory size:	     23,088 MB
+\# Max mem available:	     16,344 MB
+\# Initial memory used:	        190 MB
+\#        process size:	      1,636 MB
+\# Thread usage limits (effective/default):	maxthreads 62400/62400 maxload 8.00/8.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		root
+\o Working Directory:	islcadence1:/root/Documents/vvgh/GPS
+\# Process Id:		12548
+\o 
+\o COPYRIGHT (C) 1992-2021  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2021  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\# Memory report: using         351 MB, process size 1,876 MB at UTC 2023.03.21 08:58:13.131
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso24056, host=islcadence1). Connection mode is ICRP. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 12548 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [14:28:09.350145] Configured Lic search path (20.02-p002): 5280@cadence
+\o *Info*    Client has finished starting ... 
+\o 
+\o Loading vdsil.cxt 
+\p > 
+\a _treeSetOpcGUI(t)
+\# [14:28:14.184506] Periodic Lic check successful
+\# [14:28:14.184507] Feature usage summary:
+\r t
+\# Available memory:         16,049 MB at UTC 2023.03.21 08:58:19.564
+\# Memory report: Maximum memory size now 16,436 MB at UTC 2023.03.21 08:58:19.564
+\# Thread usage report: 13 active threads, active load 1.40 at UTC 2023.03.21 08:58:19.564

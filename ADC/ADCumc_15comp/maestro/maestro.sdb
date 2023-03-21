@@ -1,0 +1,365 @@
+<?xml version="1.0"?>
+<setupdb version="6">maestro
+	<active>Active Setup
+		<jobcontrolmode>LSCS</jobcontrolmode>
+		<corners>
+			<corner enabled="1">_default</corner>
+		</corners>
+		<overwritehistory>0</overwritehistory>
+		<tests>
+			<test>ADC_15comp_1
+				<tool>ADE</tool>
+				<tooloptions>
+					<option>cell
+						<value>15comp</value>
+					</option>
+					<option>lib
+						<value>ADC</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+					<option>state
+						<value>active</value>
+					</option>
+				</tooloptions>
+				<origoptions>
+					<option>cell
+						<value>15comp</value>
+					</option>
+					<option>lib
+						<value>ADC</value>
+					</option>
+					<option>path
+						<value>$AXL_SETUPDB_DIR/test_states</value>
+					</option>
+					<option>sim
+						<value>spectre</value>
+					</option>
+					<option>view
+						<value>schematic</value>
+					</option>
+				</origoptions>
+				<outputs>
+					<output>(VDC("/o1") + VDC("/o2") + VDC("/o3") + VDC("/o4") + VDC("/o5") + VDC("/o6") + VDC("/o7") + VDC("/o8") + VDC("/o9") + VDC("/o10") + VDC("/o11") + VDC("/o12") + VDC("/o13") + VDC("/o14") + VDC("/o15"))
+						<evalType>point</evalType>
+					</output>
+					<output>(VDC("/o1"))
+						<evalType>point</evalType>
+					</output>
+					<output>/vin
+						<evalType>point</evalType>
+					</output>
+					<output>((((VT("/o1") + VT("/o2") + VT("/o3") + VT("/o4") + VT("/o5") + VT("/o6") + VT("/o7") + VT("/o8") + VT("/o9") + VT("/o10") + VT("/o11") + VT("/o12") + VT("/o13") + VT("/o14") + VT("/o15")) / 1.8) * 1.2) / 15)
+						<evalType>point</evalType>
+					</output>
+					<output>(((VT("/o1") + VT("/o2") + VT("/o3") + VT("/o4") + VT("/o5") + VT("/o6") + VT("/o7") + VT("/o8") + VT("/o9") + VT("/o10") + VT("/o11") + VT("/o12") + VT("/o13") + VT("/o14") + VT("/o15")) / 1.8 / 12.5))
+						<evalType>point</evalType>
+					</output>
+					<output>((VT("/o1") + VT("/o2") + VT("/o3") + VT("/o4") + VT("/o5") + VT("/o6") + VT("/o7") + VT("/o8") + VT("/o9") + VT("/o10") + VT("/o11") + VT("/o12") + VT("/o13") + VT("/o14") + VT("/o15")))
+						<evalType>point</evalType>
+					</output>
+					<output>(((VT("/o1") + VT("/o2") + VT("/o3") + VT("/o4") + VT("/o5") + VT("/o6") + VT("/o7") + VT("/o8") + VT("/o9") + VT("/o10") + VT("/o11") + VT("/o12") + VT("/o13") + VT("/o14") + VT("/o15"))) / 22.5)
+						<evalType>point</evalType>
+					</output>
+					<output>((VT("/o1") + VT("/o2") + VT("/o3") + VT("/o4") + VT("/o5") + VT("/o6") + VT("/o7") + VT("/o8") + VT("/o9") + VT("/o10") + VT("/o11") + VT("/o12") + VT("/o13") + VT("/o14") + VT("/o15")) / 22.5)
+						<evalType>point</evalType>
+					</output>
+					<output>(VT("/vin") - 0.6)
+						<evalType>point</evalType>
+					</output>
+					<output>output of thermometer sum
+						<evalType>point</evalType>
+					</output>
+					<output>((VT("/o1") + VT("/o2") + VT("/o3") + VT("/o4") + VT("/o5") + VT("/o6") + VT("/o7") + VT("/o8") + VT("/o9") + VT("/o10") + VT("/o11") + VT("/o12") + VT("/o13") + VT("/o14") + VT("/o15")) / (1.8 * 16))
+						<evalType>point</evalType>
+					</output>
+					<output>(-1 * average((IT("/V0/PLUS") * VT("/vsupply"))))
+						<evalType>point</evalType>
+					</output>
+					<output>(- (VT("/vsupply") * IT("/V0/PLUS")))
+						<evalType>point</evalType>
+					</output>
+					<output>/I0/NM2/D
+						<evalType>point</evalType>
+					</output>
+				</outputs>
+				<vars></vars>
+			</test>
+		</tests>
+		<currentmode>Single Run, Sweeps and Corners</currentmode>
+		<checksasserts netlist="0">
+			<test netlist="0" netlistscope="all">ADC_15comp_1</test>
+		</checksasserts>
+		<extensions>
+			<extension>Parasitics
+				<callback>_parSetupDBExtensionCB</callback>
+				<iconvalue></iconvalue>
+				<icontype></icontype>
+			</extension>
+		</extensions>
+		<plottingoptions>
+			<plottingoption>waveformtemplate
+				<value>(None)</value>
+			</plottingoption>
+			<plottingoption>plottingmode
+				<value>Replace</value>
+			</plottingoption>
+			<plottingoption>plottype
+				<value>None</value>
+			</plottingoption>
+			<plottingoption>usewaveformtemplate
+				<value>no</value>
+			</plottingoption>
+			<plottingoption>useMaestroPlottingTemplate
+				<value>yes</value>
+			</plottingoption>
+			<plottingoption>allplottingtemplates
+				<value></value>
+			</plottingoption>
+			<plottingoption>defaultplottingtemplate
+				<value></value>
+			</plottingoption>
+		</plottingoptions>
+		<exploreroptions>
+			<exploreroption>waveformtemplate
+				<value>(None)</value>
+			</exploreroption>
+		</exploreroptions>
+		<incrementalsimsetup>
+			<useincremental>0</useincremental>
+			<reusenetlist>0</reusenetlist>
+			<copyreferenceresults>1</copyreferenceresults>
+		</incrementalsimsetup>
+		<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
+		<allparametersdisabled>1</allparametersdisabled>
+		<allcornersenabled>0</allcornersenabled>
+	</active>
+	<history>History
+		<historyentry assemblerOrExplorer="explorer" roOrView="view" runningOrFinished="running">ExplorerRun.0
+			<checkpoint>
+				<jobcontrolmode>LSCS</jobcontrolmode>
+				<corners>
+					<corner enabled="1">_default</corner>
+				</corners>
+				<overwritehistory>0</overwritehistory>
+				<tests>
+					<test>ADC_15comp_1
+						<tool>ADE</tool>
+						<tooloptions>
+							<option>cell
+								<value>15comp</value>
+							</option>
+							<option>lib
+								<value>ADC</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+							<option>state
+								<value>ExplorerRun.0</value>
+							</option>
+						</tooloptions>
+						<origoptions>
+							<option>cell
+								<value>15comp</value>
+							</option>
+							<option>lib
+								<value>ADC</value>
+							</option>
+							<option>path
+								<value>$AXL_SETUPDB_DIR/test_states</value>
+							</option>
+							<option>sim
+								<value>spectre</value>
+							</option>
+							<option>view
+								<value>schematic</value>
+							</option>
+						</origoptions>
+						<outputs>
+							<output>(VDC("/o1") + VDC("/o2") + VDC("/o3") + VDC("/o4") + VDC("/o5") + VDC("/o6") + VDC("/o7") + VDC("/o8") + VDC("/o9") + VDC("/o10") + VDC("/o11") + VDC("/o12") + VDC("/o13") + VDC("/o14") + VDC("/o15"))
+								<evalType>point</evalType>
+							</output>
+							<output>(VDC("/o1"))
+								<evalType>point</evalType>
+							</output>
+							<output>/vin
+								<evalType>point</evalType>
+							</output>
+							<output>((((VT("/o1") + VT("/o2") + VT("/o3") + VT("/o4") + VT("/o5") + VT("/o6") + VT("/o7") + VT("/o8") + VT("/o9") + VT("/o10") + VT("/o11") + VT("/o12") + VT("/o13") + VT("/o14") + VT("/o15")) / 1.8) * 1.2) / 15)
+								<evalType>point</evalType>
+							</output>
+							<output>(((VT("/o1") + VT("/o2") + VT("/o3") + VT("/o4") + VT("/o5") + VT("/o6") + VT("/o7") + VT("/o8") + VT("/o9") + VT("/o10") + VT("/o11") + VT("/o12") + VT("/o13") + VT("/o14") + VT("/o15")) / 1.8 / 12.5))
+								<evalType>point</evalType>
+							</output>
+							<output>((VT("/o1") + VT("/o2") + VT("/o3") + VT("/o4") + VT("/o5") + VT("/o6") + VT("/o7") + VT("/o8") + VT("/o9") + VT("/o10") + VT("/o11") + VT("/o12") + VT("/o13") + VT("/o14") + VT("/o15")))
+								<evalType>point</evalType>
+							</output>
+							<output>(((VT("/o1") + VT("/o2") + VT("/o3") + VT("/o4") + VT("/o5") + VT("/o6") + VT("/o7") + VT("/o8") + VT("/o9") + VT("/o10") + VT("/o11") + VT("/o12") + VT("/o13") + VT("/o14") + VT("/o15"))) / 22.5)
+								<evalType>point</evalType>
+							</output>
+							<output>((VT("/o1") + VT("/o2") + VT("/o3") + VT("/o4") + VT("/o5") + VT("/o6") + VT("/o7") + VT("/o8") + VT("/o9") + VT("/o10") + VT("/o11") + VT("/o12") + VT("/o13") + VT("/o14") + VT("/o15")) / 22.5)
+								<evalType>point</evalType>
+							</output>
+							<output>(VT("/vin") - 0.6)
+								<evalType>point</evalType>
+							</output>
+							<output>output of thermometer sum
+								<evalType>point</evalType>
+							</output>
+							<output>((VT("/o1") + VT("/o2") + VT("/o3") + VT("/o4") + VT("/o5") + VT("/o6") + VT("/o7") + VT("/o8") + VT("/o9") + VT("/o10") + VT("/o11") + VT("/o12") + VT("/o13") + VT("/o14") + VT("/o15")) / (1.8 * 16))
+								<evalType>point</evalType>
+							</output>
+							<output>(-1 * average((IT("/V0/PLUS") * VT("/vsupply"))))
+								<evalType>point</evalType>
+							</output>
+							<output>(- (VT("/vsupply") * IT("/V0/PLUS")))
+								<evalType>point</evalType>
+							</output>
+							<output>/I0/NM2/D
+								<evalType>point</evalType>
+							</output>
+						</outputs>
+						<vars></vars>
+					</test>
+				</tests>
+				<currentmode>Single Run, Sweeps and Corners</currentmode>
+				<checksasserts netlist="0">
+					<test netlist="0" netlistscope="all">ADC_15comp_1</test>
+				</checksasserts>
+				<extensions>
+					<extension>Parasitics
+						<callback>_parSetupDBExtensionCB</callback>
+						<iconvalue></iconvalue>
+						<icontype></icontype>
+					</extension>
+				</extensions>
+				<plottingoptions>
+					<plottingoption>plottype
+						<value>Auto</value>
+					</plottingoption>
+					<plottingoption>autoplotmode
+						<value>Replace</value>
+					</plottingoption>
+					<plottingoption>useMaestroPlottingTemplate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>waveformtemplate
+						<value>(None)</value>
+					</plottingoption>
+					<plottingoption>autoplotsignals
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>autoplotwaveexpr
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>autoplotscalarexpr
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>annotatedesignname
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>annotatesimdate
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>annotatedesignvars
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>annotatetemperature
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>annotatescalaroutputs
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>annotatespecmarkers
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>directplotmode
+						<value>Append</value>
+					</plottingoption>
+					<plottingoption>directplotafter
+						<value>All Selections Are Made</value>
+					</plottingoption>
+					<plottingoption>histogramtype
+						<value>pass/fail</value>
+					</plottingoption>
+					<plottingoption>histogrambins
+						<value>10</value>
+					</plottingoption>
+					<plottingoption>showhistogramdensity
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>showhistogramdeviation
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>showhistogrampercentmarkers
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>histogramqqplot
+						<value>no</value>
+					</plottingoption>
+					<plottingoption>showhistogrampoints
+						<value>yes</value>
+					</plottingoption>
+					<plottingoption>printafter
+						<value>Each Selection</value>
+					</plottingoption>
+					<plottingoption>usewaveformtemplate
+						<value>no</value>
+					</plottingoption>
+				</plottingoptions>
+				<exploreroptions>
+					<exploreroption>waveformtemplate
+						<value>(None)</value>
+					</exploreroption>
+				</exploreroptions>
+				<incrementalsimsetup>
+					<useincremental>0</useincremental>
+					<reusenetlist>0</reusenetlist>
+					<copyreferenceresults>1</copyreferenceresults>
+				</incrementalsimsetup>
+				<overwritehistoryname>ExplorerRun.0</overwritehistoryname>
+				<allparametersdisabled>1</allparametersdisabled>
+				<allcornersenabled>0</allcornersenabled>
+				<runnabletests>
+					<test>ADC_15comp_1</test>
+				</runnabletests>
+				<disabledtests></disabledtests>
+				<vars></vars>
+				<allsweepsenabled>1</allsweepsenabled>
+				<sortVariableValues>0</sortVariableValues>
+			</checkpoint>
+			<timestamp>Mar 21 15:52:33 2023</timestamp>
+			<uuid>{5e7cb793-f751-48a0-8f57-34cceb68ddaf}</uuid>
+			<resultsname></resultsname>
+			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
+			<rawdatadelstrategy>SaveAll
+				<simdatasavemode>All</simdatasavemode>
+			</rawdatadelstrategy>
+			<netlistdelstrategy>SaveAll</netlistdelstrategy>
+			<uselocalpsfdir>false</uselocalpsfdir>
+			<localpsfdir>/tmp/islcadence1_root_155233268</localpsfdir>
+			<psfdir></psfdir>
+			<simdir></simdir>
+			<gendatasheetplotsonsimulation>0</gendatasheetplotsonsimulation>
+			<loggingdatabasedir>/root/Documents/vvgh/GPS/ADC/15comp/maestro/results/maestro</loggingdatabasedir>
+			<runlog></runlog>
+			<runlogfile>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.log</runlogfile>
+			<schematicpoint></schematicpoint>
+			<test>all</test>
+		</historyentry>
+	</history>
+</setupdb>

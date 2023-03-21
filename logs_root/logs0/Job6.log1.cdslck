@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      root
+HostName                       islcadence1
+ProcessIdentifier              16126
+ProcessCreationTime_UTC        1678964841
+ProcessCreationTime_Readable   Thu Mar 16 16:37:21 2023 IST
+AppIdentifier                  Unknown Application
+OSType                         lnx86
+ReasonForPlacingEditLock       lock for spectre monitor log file
+FilePathUsedToEditLock         /root/Documents/GPS/logs_root/logs0/Job6.log1
+TimeEditLocked                 Thu Mar 16 16:37:21 2023 IST

@@ -1,0 +1,9 @@
+// VerilogA for ADC, adc_ideal, veriloga
+
+`include "constants.vams"
+`include "disciplines.vams"
+
+module adc_ideal;
+
+
+endmodule

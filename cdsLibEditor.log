@@ -1,12 +1,34 @@
 \o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 03/31/2021 15:44 (sjfdcl1031) $
 \o Sub version:		sub-version  s184 
-\o Arguments:		-cdslib /root/Documents/vvgh/GPS/cds.lib -mpssession virtuoso4286 -mpshost islcadence2 
-\o Working Directory:	islcadence2:/root/Documents/vvgh/GPS
+\o Arguments:		-cdslib /root/Documents/vvgh/GPS/cds.lib -mpssession virtuoso24056 -mpshost islcadence1 
+\o Working Directory:	islcadence1:/root/Documents/vvgh/GPS
 \o 64-bit offsets
 \a nrSetWindowVisibility(cdsLibEditor "show")
 \o Qt version: 		5.9.1
 \a nrSetCurrentWindow(cdsLibEditor)
 \a nrListItemAction(cdsLibEditor->mainTable 0 0)
 \o Active cell: 0 0 "rfLib"
-\a nrResizeWindow(cdsLibEditor list(88 116 500 400))
+\a nrResizeWindow(cdsLibEditor list(38 66 500 400))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(772 39 500 400))
+\a nrListItemAction(cdsLibEditor->mainTable 24 0)
+\o Active cell: 24 0 ""
+\a nrListItemRename(cdsLibEditor->mainTable, 24 0 "UMC")
+\a nrListItemAction(cdsLibEditor->mainTable 23 1)
+\o Active cell: 23 1 "/root/Documents/vvgh/GPS/Mixer"
+\a nrListItemAction(cdsLibEditor->mainTable 24 0)
+\o Active cell: 24 0 "UMC"
+\a nrListItemRename(cdsLibEditor->mainTable, 24 0 "UMC_18_CMOS")
+\a nrListItemAction(cdsLibEditor->mainTable 24 1)
+\o Active cell: 24 1 ""
+\a nrListItemRename(cdsLibEditor->mainTable, 24 1 "/root/UMC_18_CMOS")
+\a nrListItemAction(cdsLibEditor->mainTable 25 0)
+\o Active cell: 25 0 ""
+\a nrListItemRename(cdsLibEditor->mainTable, 25 0 "umc_test")
+\a nrListItemAction(cdsLibEditor->mainTable 25 1)
+\o Active cell: 25 1 ""
+\a nrListItemRename(cdsLibEditor->mainTable, 25 1 "/root/umc_test")
+\a nrListItemAction(cdsLibEditor->mainTable 26 0)
+\o Active cell: 26 0 ""
+\a cdsLibEditor->fileSaveButton->value = t
 \a exit(0)
