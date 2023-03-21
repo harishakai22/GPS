@@ -1,3 +1,4 @@
 SOFTINCLUDE /home/install/IC618/share/cdssetup/cds.lib
 DEFINE ADC /root/Documents/vvgh/GPS/ADC
 DEFINE LNA /root/Documents/vvgh/GPS/LNA
+DEFINE Mixer /root/Documents/vvgh/GPS/Mixer

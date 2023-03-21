@@ -1,0 +1,12 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 03/31/2021 15:44 (sjfdcl1031) $
+\o Sub version:		sub-version  s184 
+\o Arguments:		-cdslib /root/Documents/vvgh/GPS/cds.lib -mpssession virtuoso4286 -mpshost islcadence2 
+\o Working Directory:	islcadence2:/root/Documents/vvgh/GPS
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.9.1
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "rfLib"
+\a nrResizeWindow(cdsLibEditor list(88 116 500 400))
+\a exit(0)

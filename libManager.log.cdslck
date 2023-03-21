@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      root
+HostName                       islcadence2
+ProcessIdentifier              7854
+ProcessCreationTime_UTC        1679378156
+ProcessCreationTime_Readable   Tue Mar 21 11:25:56 2023 IST
+AppIdentifier                  /home/install/IC618/tools/dfII/bin/64bit/libManager
+OSType                         lnx86
+ReasonForPlacingEditLock       log file
+FilePathUsedToEditLock         /root/Documents/vvgh/GPS/libManager.log
+TimeEditLocked                 Tue Mar 21 11:33:05 2023 IST
